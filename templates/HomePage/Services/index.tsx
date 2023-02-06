@@ -12,13 +12,9 @@ type ServicesProps = {
 const Services = ({ items }: ServicesProps) => (
     <div className={cn("section-mb144", styles.section)}>
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>OUR SERVICE</div>
+            <div className={cn("label", styles.label)}>OUR SERVICES</div>
             <div className={cn("h7", styles.info)}>
-                As a 360-degree agency, we provide a variety of services. Our
-                devoted team is made up of experts in a variety of disciplines,
-                including digital advertising, design, copywriting, web design,
-                and more. Please feel free to contact us if there is anything we
-                can do to assist you as you peruse the services we offer below.
+                We're not a full-service agency, but a boutique consultant focused on bringing you further. We're not here to replace your own team, but rather complement them for a short period of time.
             </div>
             <div className={styles.list}>
                 {items.slice(0, 5).map((service, index) => (

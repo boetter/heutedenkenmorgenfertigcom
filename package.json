@@ -1,6 +1,6 @@
 {
-  "name": "keeper",
-  "version": "0.1.0",
+  "name": "hdmf",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

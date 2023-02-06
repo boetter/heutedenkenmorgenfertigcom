@@ -4,7 +4,7 @@ import ButtonCircle from "@/components/ButtonCircle";
 import cn from "classnames";
 import styles from "./Main.module.sass";
 
-const TEXTS = ["changing.", "moving.", "pushing.", "shaping."];
+const TEXTS = ["faster.", "wilder.", "braver.", "crazier."];
 
 type MainProps = {
     scrollToRef: any;
@@ -26,7 +26,7 @@ const Main = ({ scrollToRef }: MainProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.wrap}>
                     <div className={cn("h1", styles.title)}>
-                        Keep
+                        Become
                         <div className={styles.word}>
                             <TextTransition springConfig={presets.slow} inline>
                                 {TEXTS[index % TEXTS.length]}
@@ -34,11 +34,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                         </div>
                     </div>
                     <div className={styles.info}>
-                        We are a team of branding experts, marketing
-                        strategists, digital traders, designers, and growth
-                        programmers. We use the strength of human psychology and
-                        our understanding of digital landscapes to help
-                        businesses attract customers.
+                        Lets team up to speed up your organization. We bring experience from digital start-ups to mature industrial players. Ideas hatched today, can launch tomorrow.
                     </div>
                 </div>
                 <div className={styles.actions}>

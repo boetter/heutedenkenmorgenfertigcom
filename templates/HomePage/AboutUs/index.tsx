@@ -13,20 +13,14 @@ const AboutUs = ({ scrollToRef }: AboutUsProps) => (
             <div className={cn("label", styles.label)}>ABOUT US</div>
             <div className={styles.wrap}>
                 <div className={cn("h5", styles.title)}>
-                    We have put together a special combination of strategy,
-                    marketing, design, and digital expertise.
+                    We bring decades of expertise in building things faster.
                 </div>
                 <ul className={styles.list}>
                     <li>
-                        Companies and organizations have no choice but to
-                        achieve perfection in a world of algorithms, artificial
-                        intelligence, and word-of-mouth.
+                        Companies and organizations usually strive for 100%. Perfection in everything they do. The digital world is different though. We need to learn how to act on 20%.
                     </li>
                     <li>
-                        Keeper has assembled a group of strategists, designers,
-                        branding experts, business model specialists, and
-                        service designers. We assist our clients in excelling in
-                        their fields. or even more powerful.
+                        Heute denken, morgen fertig has assembled a group of trouble-makers with experience in both starting stuff and building stuff. Usually we have worked in both start-ups and leading consultancies.
                     </li>
                 </ul>
                 <Link className={cn("button", styles.button)} href="/about">

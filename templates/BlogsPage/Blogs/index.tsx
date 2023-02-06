@@ -19,7 +19,6 @@ const Blogs = ({ items, scrollToRef }: BlogsProps) => (
                     <Blog item={blog} key={blog.id} />
                 ))}
             </div>
-            <button className={cn("button", styles.button)}>LOAD MORE</button>
         </div>
     </div>
 );
