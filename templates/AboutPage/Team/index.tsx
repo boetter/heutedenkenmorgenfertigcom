@@ -13,9 +13,9 @@ const Team = ({ items }: TeamProps) => (
         className={cn("section-mb160 section-pd section-black", styles.section)}
     >
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>MEET THE TEAM</div>
+            <div className={cn("label", styles.label)}>JEG ER IKKE ALENE</div>
             <div className={cn("h5", styles.title)}>
-                Meet multi-talented people who are passionate about their craft.
+                Jeg trækker på mit netværk når der er brug for det.
             </div>
             <div className={styles.list}>
                 {items.map((man) => (

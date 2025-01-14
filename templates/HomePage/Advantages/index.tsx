@@ -4,20 +4,20 @@ import styles from "./Advantages.module.sass";
 
 const list = [
     {
-        title: "Years of Experience",
-        value: "10+",
+        title: "Års erfaring",
+        value: "20+",
     },
     {
-        title: "Satisfied Customers",
-        value: "150+",
+        title: "Afholdte foredrag",
+        value: "500+",
     },
     {
-        title: "Awards Won",
-        value: "10+",
+        title: "Konsulentprojekter leveret",
+        value: "100+",
     },
     {
-        title: "Completed Projects",
-        value: "200+",
+        title: "Prototyper bygget",
+        value: "1000+",
     },
 ];
 
@@ -28,36 +28,24 @@ const Advantages = ({}: AdvantagesProps) => (
         className={cn("section-mb160 section-pd section-black", styles.section)}
     >
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>WHY CHOOSE US</div>
+            <div className={cn("label", styles.label)}>Hvorfor vælge HDMF?</div>
             <div className={cn("section-mb120", styles.row)}>
                 <div className={styles.wrap}>
                     <div className={cn("h5", styles.title)}>
-                        We deliver for you whatever you need
-                    </div>
+                        Det behøver ikke være svært at komme i gang med AI                    </div>
                     <Link
                         className={cn("button-light", styles.button)}
-                        href="/projects"
+                        href="/projekter"
                     >
-                        LET’S WORK TOGETHER
+                        LÆS OM TIDLIGERE PROJEKTER
                     </Link>
                 </div>
                 <div className={styles.content}>
                     <p>
-                        More than 30 campaign managers and specialists on the
-                        Keeper team will plan and design a powerful campaign
-                        specifically for you. Our expertise is in developing
-                        competitive advantages. We have faith in capability. To
-                        help you differentiate your business from the
-                        competition, we employ cutting-edge strategies, digital
-                        tools, design, and creative thinking.
+                        Når du vælger Heute denken, morgen fertig får du én dedikeret ressource. Her er ingen juniorkonsulenter eller andre tricks til at hive prisen op. Du får mig, Jacob Bøtter, som har mere end 20 års erfaring med at hjælpe organisationer med at få værdi ud af AI og andre nye teknologier.
                     </p>
                     <p>
-                        We do more than just build websites and Facebook pages
-                        and buy advertising space; we are a communication
-                        agency. We introduce your name, item, or service to the
-                        consumer. To help your business succeed, we work in
-                        branding, digital marketing, art direction, and
-                        printing.
+                        Min tilgang er at gøre det komplekse simpelt. Det er rent faktisk muligt at afprøve AI uden en stor strategi. Du kan rent faktisk give dine kolleger nye kompetencer inden I har valgt den helt rigtige AI-platform.
                     </p>
                 </div>
             </div>

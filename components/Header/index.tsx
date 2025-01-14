@@ -10,43 +10,39 @@ import Socials from "../Socials";
 
 const navigation = [
     {
-        title: "About",
-        url: "/about",
+        title: "Om virksomheden",
+        url: "/om-virksomheden",
     },
     {
-        title: "Services",
-        url: "/services",
+        title: "Ydelser",
+        url: "/ydelser",
     },
     {
-        title: "Projects",
-        url: "/projects",
+        title: "Projekter",
+        url: "/projekter",
     },
     {
-        title: "Blogs",
-        url: "/blogs",
+        title: "Eksperimenter",
+        url: "/eksperimenter",
     },
     {
-        title: "Contact",
-        url: "/contact",
+        title: "Kontakt",
+        url: "/kontakt",
     },
 ];
 
 const socials = [
     {
         icon: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://www.facebook.com/jacobboetter",
     },
     {
         icon: "twitter",
-        url: "https://twitter.com/ui8",
-    },
-    {
-        icon: "instagram",
-        url: "https://www.instagram.com/ui8net/",
+        url: "https://x.com/boetter",
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/ui8",
+        url: "https://www.linkedin.com/in/boetter/",
     },
 ];
 

@@ -6,14 +6,9 @@ type StoryProps = {};
 const Story = ({}: StoryProps) => (
     <div className={cn("section-mb160", styles.section)}>
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>OUR STORY</div>
+            <div className={cn("label", styles.label)}>HVORFOR PÅ TYSK?</div>
             <div className={cn("h6", styles.content)}>
-                The only option available to businesses and organizations in the
-                age of algorithms, artificial intelligence, and word-of-mouth is
-                perfection. A team of strategists, designers, branding
-                specialists, business model experts, and service designers has
-                been assembled by Keeper. We support our clients in excelling at
-                what they do. or grow even more.
+                Navnet kommer fra den tyske kunstner Martin Kippenberger, som for tredive år siden udstillede et skilt i Berlin med teksten på. Jeg opdagede den for femten år siden og tog det til mig som den mest åbenlyse forklaring på hvad jeg er bedst til: at realisere idéer til konkrete projekter hurtigere end de fleste.
             </div>
         </div>
     </div>

@@ -12,9 +12,10 @@ type ServicesProps = {
 const Services = ({ items }: ServicesProps) => (
     <div className={cn("section-mb144", styles.section)}>
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>OUR SERVICES</div>
+            <div className={cn("label", styles.label)}>PRIMÆRE YDELSER</div>
             <div className={cn("h7", styles.info)}>
-                We're not a full-service agency, but a boutique consultant focused on bringing you further. We're not here to replace your own team, but rather complement them for a short period of time.
+                Jacob Bøtter understøtter dine kolleger i en kortere periode, enten for at bygge prototyper eller træne dem.
+                
             </div>
             <div className={styles.list}>
                 {items.slice(0, 5).map((service, index) => (
@@ -34,7 +35,7 @@ const Services = ({ items }: ServicesProps) => (
                 ))}
             </div>
             <Link className={cn("button", styles.button)} href="/services">
-                VIEW ALL SERVICE
+                LÆS MERE OM YDELSER
             </Link>
         </div>
     </div>

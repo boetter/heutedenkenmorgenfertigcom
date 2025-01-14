@@ -13,10 +13,9 @@ const Blogs = ({ items }: BlogsProps) => (
     <div className={cn("section-black section-pd128", styles.section)}>
         <div className={"container"}>
             <div className={styles.head}>
-                <div className={cn("label", styles.label)}>OUR BLOGS</div>
+                <div className={cn("label", styles.label)}>EKSPERIMENTER</div>
                 <div className={cn("h5", styles.title)}>
-                    Sharing is caring so we make time to write about our
-                    experience.
+                    Den bedste måde at forstå ny teknologi på, er ved at afprøve den.
                 </div>
             </div>
             <div className={styles.list}>
@@ -29,7 +28,7 @@ const Blogs = ({ items }: BlogsProps) => (
                     className={cn("button-light", styles.button)}
                     href="/blogs"
                 >
-                    VIEW ALL POSTS
+                    SE ALLE EKSPERIMENTER
                 </Link>
             </div>
         </div>

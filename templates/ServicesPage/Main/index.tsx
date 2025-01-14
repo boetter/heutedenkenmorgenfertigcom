@@ -1,7 +1,6 @@
 import cn from "classnames";
 import styles from "./Main.module.sass";
 import Image from "@/components/Image";
-import ButtonCircle from "@/components/ButtonCircle";
 
 const images = [
     "/images/services/service-photo-1.jpg",
@@ -22,13 +21,10 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        We help companies find their way to greatness.
+                        Det skal være nemt at få værdi ud af AI.
                     </div>
                     <div className={styles.info}>
-                        Keeper performs a thorough analysis of your situation in
-                        order to select a strategic approach that fits your
-                        activities and to establish the ideal timing for
-                        implementation.
+                        Det er ofte alt for besværligt at komme i gang med AI. Jeg har sammensat mine ydelser på en sådan måde at du relativt gnidnigsfrit kan få værdi ud af samarbejdet her og nu – og ikke først om flere år.
                     </div>
                 </div>
             </div>
@@ -46,12 +42,7 @@ const Main = ({}: MainProps) => {
                         </div>
                     ))}
                 </div>
-                <ButtonCircle
-                    className={styles.button}
-                    icon="arrows"
-                    image="/images/drag-to-view.svg"
-                    small
-                />
+
             </div>
         </>
     );

@@ -12,7 +12,7 @@ const Project = ({ item, light }: ProjectProps) => (
     <div className={styles.project}>
         <Link
             className={cn(styles.inner, { [styles.innerLight]: light })}
-            href={`/projects/${item.id}`}
+            href={`/projekter/${item.id}`}
         >
             <div className={styles.preview}>
                 <Image

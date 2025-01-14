@@ -9,27 +9,20 @@ const Description = ({}: DescriptionProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.col}>
                 <div className={cn("h5", styles.title)}>
-                    There are no ordinary projects, only extraordinary
-                    situations.
+                    Du skal investere i mennesker, hvis du vil have værdi ud af AI.
                 </div>
             </div>
             <div className={styles.col}>
                 <div className={styles.content}>
                     <p>
-                        A strategy needs to be scalable and adaptable in order
-                        to be truly effective. We&apos;ll plan your growth,
-                        evolution, and renaissance whether your business
-                        environment is stable or unstable.
+                        Mange organisationer tror at AI handler om teknologi, men det er egentlig det mindste af det. Størstedelen af værdien kommer først når vi får alle med. Det kræver en dedikeret indsats for at træne og udvikle dine kolleger.
                     </p>
                     <p>
-                        Sustainable branding, a distinctive verbal and visual
-                        identity, clever and effective communication, or a
-                        cohesive creative concept—all of these are products of a
-                        pertinent strategy.
+                        Heute denken, morgen fertig arbejder med at udvikle læringsforløb for grupper af medarbejdere, fordi det er her potentialet for værdiskabelse er størst. Sekundært arbejdes der også med rådgivning, prototyper og foredrag.
                     </p>
                 </div>
-                <Link className="button" href="/contact">
-                    GET IN TOUCH
+                <Link className="button" href="/kontakt">
+                    KONTAKT JACOB
                 </Link>
             </div>
         </div>

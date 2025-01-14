@@ -8,24 +8,24 @@ import Socials from "@/components/Socials";
 
 const navigation = [
     {
-        title: "About",
-        url: "/about",
+        title: "Om virksomheden",
+        url: "/om-virksomheden",
     },
     {
-        title: "Services",
-        url: "/services",
+        title: "Ydelser",
+        url: "/ydelser",
     },
     {
-        title: "Projects",
-        url: "/projects",
+        title: "Projekter",
+        url: "/projekter",
     },
     {
-        title: "Blogs",
-        url: "/blogs",
+        title: "Eksperimenter",
+        url: "/eksperimenter",
     },
     {
-        title: "Contact",
-        url: "/contact",
+        title: "Kontakt",
+        url: "/kontakt",
     },
 ];
 
@@ -39,16 +39,12 @@ const socials = [
         url: "https://twitter.com/boetter",
     },
     {
-        icon: "instagram",
-        url: "https://www.instagram.com/boetter/",
-    },
-    {
         icon: "linkedin",
         url: "https://www.linkedin.com/in/boetter/",
     },
 ];
 
-const TEXTS = ["great", "new", "big"];
+const TEXTS = ["stort", "fedt", "nyt", "vildt", "smukt", "sjovt", "unikt", "flot", "klogt", "smart"];
 
 type FooterProps = {
     empty?: boolean;
@@ -72,8 +68,8 @@ const Footer = ({ empty }: FooterProps) => {
                     <>
                         <div className={styles.row}>
                             <div className={cn("h2", styles.title)}>
-                                <span>Let’s start</span>
-                                <span>something</span>
+                                <span>Skriv og lad</span>
+                                <span>os skabe noget</span>
                                 <span>
                                     <span className={styles.word}>
                                         <TextTransition
@@ -83,7 +79,7 @@ const Footer = ({ empty }: FooterProps) => {
                                             {TEXTS[index % TEXTS.length]}&nbsp;
                                         </TextTransition>
                                     </span>
-                                    together
+                                    sammen
                                 </span>
                             </div>
                             <ButtonCircle
@@ -123,7 +119,7 @@ const Footer = ({ empty }: FooterProps) => {
                         rel="noopener noreferrer"
                     >
                         Privacy Policy
-                    </a>
+                    </a> Se også&nbsp;
                     <a
                         className={styles.author}
                         href="https://nocodeprototype.com"

@@ -4,7 +4,7 @@ import ButtonCircle from "@/components/ButtonCircle";
 import cn from "classnames";
 import styles from "./Main.module.sass";
 
-const TEXTS = ["faster.", "wilder.", "braver.", "crazier."];
+const TEXTS = ["skarpere.", "bedre.", "hurtigere.", "klogere.", "agil.", "effektiv.", "visionær."];
 
 type MainProps = {
     scrollToRef: any;
@@ -26,7 +26,7 @@ const Main = ({ scrollToRef }: MainProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.wrap}>
                     <div className={cn("h1", styles.title)}>
-                        Become
+                        Bliv
                         <div className={styles.word}>
                             <TextTransition springConfig={presets.slow} inline>
                                 {TEXTS[index % TEXTS.length]}
@@ -34,7 +34,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                         </div>
                     </div>
                     <div className={styles.info}>
-                        Lets team up to speed up your organization. We bring experience from digital start-ups to mature industrial players. Ideas hatched today, can launch tomorrow.
+                        Generativ AI har potentialet til at forbedre dit arbejde og din organisation markant, men det sker ikke af sig selv. Jeg hjælper med at finde de største potentialer, afprøve dem i praksis og ikke mindst træne dine kolleger i at få maksimal værdi af ChatGPT og alle de andre nye AI-værktæjer.
                     </div>
                 </div>
                 <div className={styles.actions}>
@@ -42,7 +42,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                         className={styles.button}
                         icon="arrow-up-right"
                         image="/images/get-in-touch.svg"
-                        href="/contact"
+                        href="/kontakt"
                     />
                     <button
                         className={styles.scroll}
@@ -52,7 +52,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                             })
                         }
                     >
-                        DISCOVER MORE
+                        LÆS VIDERE
                         <span className={styles.mouse}>
                             <span className={styles.line}></span>
                         </span>

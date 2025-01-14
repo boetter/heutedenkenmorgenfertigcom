@@ -13,9 +13,9 @@ const Services = ({ items }: ServicesProps) => (
     <div className={cn("section-mb136", styles.section)}>
         <div className={"container"}>
             <div className={styles.head}>
-                <div className={cn("label", styles.label)}>OUR SERVICE</div>
+                <div className={cn("label", styles.label)}>FÅ HJÆLP TIL AI</div>
                 <div className={cn("h5", styles.title)}>
-                    We provide a wide range of services
+                    Ydelser
                 </div>
             </div>
             <div className={styles.list}>
@@ -34,9 +34,9 @@ const Services = ({ items }: ServicesProps) => (
                                 </div>
                                 <Link
                                     className={cn("button", styles.button)}
-                                    href={`/services/${service.id}`}
+                                    href={`/ydelser/${service.id}`}
                                 >
-                                    DISCOVER THE SERVICE
+                                    LÆS MERE OM DENNE YDELSE
                                 </Link>
                             </div>
                         </div>

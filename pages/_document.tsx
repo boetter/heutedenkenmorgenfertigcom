@@ -17,15 +17,15 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta
-                        content="Keeper - Digital Agency Website"
-                        name="Perfect design for Digital Agency Website"
+                        content="Heute denken, morgen fertig"
+                        name="Rådgivning og træning i Generativ AI af Jacob Bøtter"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Heute denken, morgen fertig"
                         property="og:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Rådgivning og træning i Generativ AI af Jacob Bøtter"
                         property="og:description"
                     />
                     <meta
@@ -34,18 +34,18 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/slabdsgn/products/keeper---digital-agency-website"
+                        content="https://heutedenkenmorgenfertig.com/"
                     />
                     <meta
                         property="og:site_name"
-                        content="Perfect design for Digital Agency Website"
+                        content="Rådgivning og træning i Generativ AI af Jacob Bøtter"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Heute denken, morgen fertig"
                         property="twitter:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Rådgivning og træning i Generativ AI af Jacob Bøtter"
                         property="twitter:description"
                     />
                     <meta
@@ -54,9 +54,7 @@ class MyDocument extends Document {
                     />
                     <meta property="og:type" content="Article" />
                     <meta content="summary" name="twitter:card" />
-                    <meta name="twitter:site" content="@ui8" />
-                    <meta name="twitter:creator" content="@ui8" />
-                    <meta property="fb:admins" content="132951670226590" />
+                    <meta name="twitter:site" content="@boetter" />
                     <meta
                         name="viewport"
                         content="width=device-width, initial-scale=1"

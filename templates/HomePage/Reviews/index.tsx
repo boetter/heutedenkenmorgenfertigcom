@@ -14,7 +14,7 @@ type ReviewsProps = {
 const Reviews = ({ items }: ReviewsProps) => (
     <div className={cn("section-mb160", styles.section)}>
         <div className={cn("container", styles.container)}>
-            <div className={cn("label", styles.label)}>OUR CLIENTS</div>
+            <div className={cn("label", styles.label)}>UDTALELSER FRA KUNDER</div>
             <div className={styles.wrap}>
                 <Swiper
                     navigation={true}

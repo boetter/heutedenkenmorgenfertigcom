@@ -32,16 +32,16 @@ const HomePage = () => {
             <Advantages />
             <Projects
                 className="section-mb160 section-separator"
-                title="Take a look at our most successful projects"
-                label="OUR PROJECTS"
+                title="AI kan gøre en kæmpe forskel, hvis du tør sætte det fri"
+                label="PROJEKTER"
                 items={projects}
                 viewItem={4}
-                viewAll="VIEW ALL PROJECT"
+                viewAll="SE TIDLIGERE PROJEKTER"
             />
             <Reviews items={reviews} />
             <Companies
                 className="section-mb160"
-                info="Trusted by 150+ Companies"
+                info="Erfaring fra over 100 tidligere projekter"
                 items={companies}
             />
             <Blogs items={blogs} />

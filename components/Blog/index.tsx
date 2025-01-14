@@ -21,7 +21,7 @@ const Blog = ({ className, item, light, cell }: BlogProps) => (
             },
             className
         )}
-        href={`/blogs/${item.id}`}
+        href={`/eksperimenter/${item.id}`}
     >
         <div className={styles.preview}>
             <Image

@@ -35,8 +35,7 @@ const Description = ({}: DescriptionProps) => (
                         />
                     </div>
                     <div className={cn("h6", styles.content)}>
-                        The world of reality has its limits; the world of
-                        imagination is boundless.
+                        Hvis vi lykkes med at mestre AI, får vi superkræfter.
                     </div>
                 </div>
             </div>

@@ -11,22 +11,20 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        Thank you for contacting us!
+                        Tak fordi du skrev til mig!
                     </div>
                     <div className={styles.wrap}>
                         <div className={cn("h7", styles.subtitle)}>
-                            We have received your message.
+                            Jeg har nu modtaget din besked 👌
                         </div>
                         <div className={styles.content}>
-                            We have received your message and will contact you
-                            shortly to follow up. If you would like to speak to
-                            someone immediately feel free to call.
+                            Så snart jeg får tid vil jeg besvare den så godt jeg kan. Det kan være jeg har travlt for tiden og derfor kommer lidt bagud med at besvare emails, men som regel kan du forvente svar indenfor 24 timer.
                         </div>
                         <Link
                             className={cn("button-light", styles.button)}
                             href="/"
                         >
-                            BACK TO HOME
+                            TILBAGE TIL FORSIDEN
                         </Link>
                     </div>
                 </div>

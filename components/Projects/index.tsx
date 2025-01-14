@@ -67,17 +67,7 @@ const Projects = ({
                     {viewAll}
                 </Link>
             )}
-            {more && (
-                <button
-                    className={cn(
-                        "button",
-                        { "button-light": dark },
-                        styles.more
-                    )}
-                >
-                    LOAD MORE
-                </button>
-            )}
+
         </div>
     </div>
 );

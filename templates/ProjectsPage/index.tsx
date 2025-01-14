@@ -14,7 +14,7 @@ const ProjectsPage = () => {
     return (
         <Layout>
             <Listing
-                title="We are here to support your brands, goods, services, and worldviews."
+                title="Erfaring fra 100+ projekter de seneste 20 år"
                 links={linksProject}
                 scrollToRef={scrollToRef}
             />

@@ -3,5 +3,10 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/about": "pages/about.js"
+  "/eksperimenter/[id]": "pages/eksperimenter/[id].js",
+  "/projekter": "pages/projekter.js",
+  "/ydelser": "pages/ydelser.js",
+  "/kontakt": "pages/kontakt.js",
+  "/eksperimenter": "pages/eksperimenter.js",
+  "/om-virksomheden": "pages/om-virksomheden.js"
 }

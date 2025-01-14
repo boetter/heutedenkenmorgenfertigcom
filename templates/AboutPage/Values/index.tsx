@@ -3,24 +3,24 @@ import styles from "./Values.module.sass";
 
 const list = [
     {
-        title: "We have a strong passion.",
+        title: "Konkret og virkeligt.",
         content:
-            'The boundaries between "work" and "play" aren&apos;t always obvious. We are all connected and motivated by our curiosity and creativity. Staying in your comfort zone is never a good idea in our opinion.',
+            'Alt for meget teknologiarbejde er præget af buzzwords og tomme løfter. Jeg tænder på at realisere virkelige og konkrete muligheder, fremfor blot at tale om fugle på taget der måske en dag lander i hånden.',
     },
     {
-        title: "We enjoy learning.",
+        title: "Teknologi kan skabes af alle.",
         content:
-            "We enjoy learning, particularly from one another. We are always improving our abilities in design, development, and copywriting as well as learning how to use new platforms and features. Because lifelong learners are the best learners.",
+            "I alt for mange år har vores digitale skæbner været afgjort af de ganske få med teknologiske skaberevner. Med fremkomsten af AI og no-code teknologier kan alle være med og jeg tror på den demokratiserende effekt af dette.",
     },
     {
-        title: "We leave egos at the door.",
+        title: "Alt kan udfordres.",
         content:
-            "We challenge ideas and offer candid criticism, but we also emphasize the points in which we agree. We will challenge things in order to produce better work, but never merely out of curiosity. There isn't time for that.",
+            "Det nemmeste i hele verden er at gøre ingenting. Ofte får bekymringer om datasikkerhed og compliance os til at droppe gode idéer. Vi skal blive bedre til at udfore os selv!",
     },
     {
-        title: "We support one another.",
+        title: "Fokus på mennesker.",
         content:
-            "Our days are spent constructing sites and strengthening one another. An opportunity to interact, work together, and recognize our clients and coworkers arises with each new project. We're in this together and for the long haul.",
+            "Det kan godt være du har verdens smarteste teknologi, men hvis ingen bruger den, så er det jo ligegyldigt. De største investeringer skal ske i mennesker, vores adfærd og evner.",
     },
 ];
 
@@ -29,10 +29,9 @@ type ValuesProps = {};
 const Values = ({}: ValuesProps) => (
     <div className={cn("section-mb160", styles.section)}>
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>OUR VALUES</div>
+            <div className={cn("label", styles.label)}>JEG TROR PÅ</div>
             <div className={cn("h7", styles.subtitle)}>
-                Here are the four guidelines we stick to protect you in these
-                shifting environments.
+                Det skal kort sagt være nemt og sjovt at arbejde sammen med mig. Jeg har beskrevet de fire vigtigste grundtræk i et godt samarbejde som jeg ser det nedenfor.
             </div>
             <div className={styles.list}>
                 {list.map((item, index) => (

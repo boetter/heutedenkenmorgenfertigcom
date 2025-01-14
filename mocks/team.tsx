@@ -1,163 +1,113 @@
 export const team = [
     {
         id: "0",
-        title: "Jensen Mustafa",
-        position: "CEO AND FOUNDER",
+        title: "Jacob Bøtter",
+        position: "DIREKTØREN FOR DET HELE",
         photo: "/images/team/photo-1.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Her indsættes en tekst om Jacob :-)",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/boetter/",
             },
         ],
     },
     {
         id: "1",
-        title: "Louisa Carson",
-        position: "STRATEGIST & PROJECT MANAGEMENT",
+        title: "Anders Hvid",
+        position: "Rådgiver",
         photo: "/images/team/photo-2.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Anders har en lang erfaring med forretningsudvikling og fremtidens teknologier. Han har stiftet konsulentvirksomheden DareDisrupt, udgivet bogen 'Forstå fremtiden' og holdt et hav af foredrag. Og så har han ofte samarbejdet med Jacob.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/andershvid/",
             },
         ],
     },
     {
         id: "2",
-        title: "Evan Cote",
-        position: "CREATIVE DIRECTOR",
+        title: "Ingrid Hagberg",
+        position: "Rådgiver",
         photo: "/images/team/photo-3.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Ingrid har en lang erfaring med at rådgive om teknologi og særligt AI. Hun har været med til at forme DSBs første eksperimenter med Generativ AI og arbejder i dag som freelancekonsulent.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/ingridhagberg/",
             },
         ],
     },
     {
         id: "3",
-        title: "Nelly Bowes",
-        position: "PROJECT MANAGER",
+        title: "Robert Daniel Nagy",
+        position: "Designer",
         photo: "/images/team/photo-4.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Robert Daniel Nagy er en prisbelønnet designer med en lang erfaring fra de største bureauer i Danmark. Han har ofte samarbejdet med Jacob på visuelle projekter.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/robertdanielnagy/",
             },
         ],
     },
     {
         id: "4",
-        title: "Ezekiel Whitmore",
-        position: "DIGITAL MEDIA SPECIALIST",
+        title: "Peder Hammerskov",
+        position: "Rådgiver",
         photo: "/images/team/photo-5.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Peder arbejder i virkeligheden på Journalisthøjskolen, men her har han fået så god erfaring med at uddanne journalister i at bruge AI, at han og Jacob nu samarbejder om at gøre det samme i andre brancher.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/peder/",
             },
         ],
     },
     {
         id: "5",
-        title: "Essa Butler",
-        position: "DIGITAL MARKETING SPECIALIST",
+        title: "Søren Christian Søndergaard Poulsen",
+        position: "Rådgiver",
         photo: "/images/team/photo-6.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Søren har nok et af landets længste CV'er når det kommer til konkret praktisk erfaring med at implementere AI. Han har senest været hos ATP og arbejder nu i egen virksomhed 'syv.ai' med bl.a. DanskGPT og andre spændende projekter.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/søren-christian-søndergaard-poulsen/",
             },
         ],
     },
     {
         id: "6",
-        title: "Zakaria Sparrow",
-        position: "UX/UI DESIGN SPECIALIST",
+        title: "Erik Korsvik Østergaard",
+        position: "Rådgiver",
         photo: "/images/team/photo-7.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Erik er en af landets mest erfarne rådgivere inden for ledelse og organisationsudvikling. Han har skrevet bogen 'Teal Dots in an Orange World' og er en efterspurgt foredragsholder.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/erikkorsvikoestergaard/",
             },
         ],
     },
     {
         id: "7",
-        title: "Arfa Estes",
-        position: "SENIOR GRAPHIC DESIGNER",
+        title: "Rikke Esbjerg",
+        position: "Rådgiver",
         photo: "/images/team/photo-8.jpg",
         description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
+            "Rikke har været direktør og redaktør for både Netdoktor og Dagens Medicin. I dag arbejder hun med start-ups på DTU og samarbejder med Jacob om at få mere og bedre AI ind i sundhedsvæsenet.",
         socials: [
             {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
-            },
-        ],
-    },
-    {
-        id: "8",
-        title: "Dayna Humphreys",
-        position: "DIGITAL MARKETING SPECIALIST",
-        photo: "/images/team/photo-9.jpg",
-        description:
-            "This strategist quickly became interested in new technologies that are revolutionizing communications. He is a key player in the implementation of Facebook and Twitter campaigns in Indonesia with Keeper, particularly in the B2B, luxury, and politics sectors. His true strength, however, is his ability to change beliefs.",
-        socials: [
-            {
-                icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
-            },
-            {
-                icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/in/rikke-esbjerg/",
             },
         ],
     },

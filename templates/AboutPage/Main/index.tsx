@@ -14,8 +14,7 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        We have put together a special combination of strategy,
-                        marketing, design, and digital expertise.
+                        Heute denken, morgen fertig er Jacob Bøtters legeplads for eksperimenter med AI og andre nye teknologier.
                     </div>
                 </div>
             </div>

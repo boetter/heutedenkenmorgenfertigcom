@@ -82,8 +82,8 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="01"
-                label="What’s your name?"
-                placeholder="Type your full name"
+                label="Hvad er dit navn?"
+                placeholder="F.eks. Jacob Bøtter"
                 value={name}
                 onChange={(e: any) => setName(e.target.value)}
                 required
@@ -91,8 +91,8 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="02"
-                label="What’s your email address?"
-                placeholder="example@email.com"
+                label="Hvad er din email-adresse?"
+                placeholder="F.eks. jacob@boetter.dk"
                 type="email"
                 value={email}
                 onChange={(e: any) => setEmail(e.target.value)}
@@ -102,7 +102,7 @@ const Form = ({}: FormProps) => {
                 className={styles.field}
                 number="03"
                 label="What’s your phone number?"
-                placeholder="+11 2222 333344"
+                placeholder="F.eks. +45 31 68 30 14"
                 type="tel"
                 value={phone}
                 onChange={(e: any) => setPhone(e.target.value)}
@@ -111,35 +111,18 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="04"
-                label="What’s your company/organization name?"
-                placeholder="Type your company/organiztion name"
+                label="Hvad hedder din virksomhed/organisation?"
+                placeholder="F.eks. Heute denken, morgen fertig"
                 value={company}
                 onChange={(e: any) => setCompany(e.target.value)}
                 required
             />
-            <Select
-                className={styles.field}
-                number="05"
-                label="What’s services are you looking for?"
-                title="Choose from a list here"
-                value={service}
-                onChange={handleChangeService}
-                options={optionsService}
-            />
-            <Select
-                className={styles.field}
-                number="06"
-                label="What have you budgeted for this project?"
-                title="Choose from a list here"
-                value={budget}
-                onChange={handleChangeBudget}
-                options={optionsBudget}
-            />
+
             <Field
                 className={styles.field}
-                number="07"
-                label="Tell us about yout project"
-                placeholder="Please type your project description"
+                number="05"
+                label="Hvad kan jeg hjælpe dig med?"
+                placeholder="F.eks. brug for rådgivning til nyt AI projekt"
                 value={description}
                 onChange={(e: any) => setDescription(e.target.value)}
                 required
@@ -148,7 +131,7 @@ const Form = ({}: FormProps) => {
                 SEND MESSAGE
             </button> */}
             <Link className={cn("button-light", styles.button)} href="/thanks">
-                SEND MESSAGE
+                SEND BESKED
             </Link>
         </form>
     );

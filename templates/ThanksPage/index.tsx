@@ -8,7 +8,7 @@ const ThanksPage = () => {
     return (
         <Layout>
             <Main />
-            <Posts items={blogs.slice(0, 2)} />
+
         </Layout>
     );
 };

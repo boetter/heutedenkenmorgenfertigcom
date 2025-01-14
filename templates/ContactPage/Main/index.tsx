@@ -8,19 +8,15 @@ import Socials from "@/components/Socials";
 const socials = [
     {
         icon: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://www.facebook.com/jacobboetter",
     },
     {
         icon: "twitter",
-        url: "https://twitter.com/ui8",
-    },
-    {
-        icon: "instagram",
-        url: "https://www.instagram.com/ui8net/",
+        url: "https://x.com/boetter",
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/ui8",
+        url: "https://www.linkedin.com/in/boetter/",
     },
 ];
 
@@ -35,16 +31,17 @@ const Main = ({}: MainProps) => {
                 <div className={styles.row}>
                     <div className={styles.wrap}>
                         <div className={cn("h2", styles.title)}>
-                            Let’s work together!
+                            Skal vi arbejde sammen?
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Let us help you become even greater at what you
-                                do.
+                                Har du brug for at komme i kontakt med Jacob Bøtter?
                             </p>
                             <p>
-                                Fill out the following form and we will get back
-                                to you in the next 24 hours.
+                                Så er du landet rette sted.
+                            </p>
+                            <p>
+                            Udfyld felterne nedenfor og jeg vender tilbage indenfor 24 timer.
                             </p>
                         </div>
                     </div>
@@ -65,30 +62,22 @@ const Main = ({}: MainProps) => {
                     <div className={styles.sidebar}>
                         <div className={styles.list}>
                             <div className={styles.item}>
-                                <div className={styles.category}>CALL US</div>
+                                <div className={styles.category}>RING ELLER SKRIV TIL MIG</div>
                                 <div className={styles.text}>
                                     <a
                                         className={styles.phone}
-                                        href="tel:+112158973027"
+                                        href="tel:+4531683014"
                                         rel="noopener noreferrer"
                                     >
-                                        +11 2158 973027
-                                    </a>
-                                    <a
-                                        className={styles.phone}
-                                        href="tel:+114845996738"
-                                        rel="noopener noreferrer"
-                                    >
-                                        +11 4845 996738
+                                        +45 31683014
                                     </a>
                                 </div>
                             </div>
                             <div className={styles.item}>
-                                <div className={styles.category}>ADDRESS</div>
+                                <div className={styles.category}>SEND ET POSTKORT</div>
                                 <div className={styles.text}>
-                                    <p>2154 Glen Falls Road</p>
-                                    <p>Plymouth Meeting,</p>
-                                    <p>Pennsylvania(PA), 19462</p>
+                                    <p>Poul Reumerts Vej 33</p>
+                                    <p>2500 Valby</p>
                                 </div>
                             </div>
                             <div className={styles.item}>

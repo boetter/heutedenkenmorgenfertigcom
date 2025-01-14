@@ -15,11 +15,11 @@ const ServicesPage = () => {
             <Services items={services} />
             <Projects
                 className="section-pd"
-                title="Take a look at our most successful projects"
-                label="OUR PROJECTS"
+                title="Erfaring fra en lang række projekter"
+                label="SENESTE PROJEKTER"
                 items={projects}
                 viewItem={4}
-                viewAll="VIEW ALL PROJECT"
+                viewAll="UDFORSK PROJEKTER"
                 dark
             />
         </Layout>
