@@ -14,7 +14,7 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html>
+            <Html lang="da">
                 <Head>
                     <meta
                         content="Heute denken, morgen fertig"
