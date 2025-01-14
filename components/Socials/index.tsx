@@ -25,6 +25,7 @@ const Socials = ({
     <div className={cn(styles.socials, className)}>
         {items.map((social, index) => (
             <a
+                aria-label={social.icon}
                 className={cn(
                     styles.social,
                     { [styles.socialDark]: dark, [styles.socialSmall]: small },

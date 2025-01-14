@@ -106,6 +106,7 @@ const Header = ({}: HeaderProps) => {
                     />
                 </div>
                 <button
+                    aria-label="Menu"
                     className={cn(styles.burger, {
                         [styles.active]: visible,
                     })}

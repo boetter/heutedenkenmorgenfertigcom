@@ -2,11 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/eksperimenter/[id]": "pages/eksperimenter/[id].js",
-  "/projekter": "pages/projekter.js",
-  "/ydelser": "pages/ydelser.js",
-  "/kontakt": "pages/kontakt.js",
-  "/eksperimenter": "pages/eksperimenter.js",
-  "/om-virksomheden": "pages/om-virksomheden.js"
+  "/": "pages/index.js"
 }

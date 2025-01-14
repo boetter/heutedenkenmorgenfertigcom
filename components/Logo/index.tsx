@@ -8,7 +8,7 @@ type LogoProps = {
 };
 
 const Logo = ({ className, dark }: LogoProps) => (
-    <Link className={cn(className, styles.logo)} href="/">
+    <Link aria-label="Heute denken morgen fertig" className={cn(className, styles.logo)} href="/">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="334"
