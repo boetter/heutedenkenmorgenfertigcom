@@ -17,15 +17,15 @@ const Main = ({ id }: MainProps) => {
                 <div className={cn("container", styles.container)}>
                     <div className={styles.list}>
                         <div className={styles.item}>
-                            <div className={styles.category}>Client</div>
+                            <div className={styles.category}>Kunde</div>
                             <div className={styles.value}>{project.client}</div>
                         </div>
                         <div className={styles.item}>
-                            <div className={styles.category}>Year</div>
+                            <div className={styles.category}>Periode</div>
                             <div className={styles.value}>{project.year}</div>
                         </div>
                         <div className={styles.item}>
-                            <div className={styles.category}>Services</div>
+                            <div className={styles.category}>Ydelser</div>
                             {project.categories.map((category, index) => (
                                 <div className={styles.value} key={index}>
                                     {category}
@@ -40,7 +40,7 @@ const Main = ({ id }: MainProps) => {
             </div>
             <Preview
                 className={cn("section-mb120", styles.preview)}
-                image="/images/image-3.jpg"
+                image={project.image}
             />
         </>
     ) : null;

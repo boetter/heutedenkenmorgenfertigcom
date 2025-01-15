@@ -11,37 +11,36 @@ import Preview from "@/components/Preview";
 
 import { projects } from "@/mocks/projects";
 
-const reviewAuthor = {
-    avatar: "/images/avatar-1.jpg",
-    man: "Buster Johnson",
-    position: "Director",
-    content:
-        "Our old website was dated and confusing. We went to Keeper to ask what they could do about it. And they succeeded: The website has a convenient backend and a user flow that is humane and results in higher engagement and conversion.",
-};
-
 const ServicePage = ({ id }: any) => {
+    const project = projects.find((project) => project.id === id);
+
+    if (!project) {
+        return <div>Project not found</div>;
+    }
+
+    const reviewAuthor = project.reviewAuthor;
+
     return (
         <Layout>
             <Main id={id} />
-            <Overview />
-            <Gallery />
+            <Overview id={id} />
+            <Gallery id={id} />
             <Review className="section-mb160" review={reviewAuthor} />
             <Preview
                 className="section-mb120"
-                video="/videos/video-1.mp4"
+                video={project.video} // Dynamisk video
                 wide
             />
-            <Content />
-            <Results />
-            <Screenshots />
+            <Content id={id} />
+            <Results projectId={id} />
             <Projects
                 className="section-mb160"
-                title="More cases"
+                title="Flere cases"
                 label="OUR PROJECTS"
-                description="We work with both small startups and large corporations."
+                description="Der er kun beskrevet et uddrag af over 100 tidligere projekter."
                 items={projects}
                 viewItem={2}
-                viewAll="VIEW ALL PROJECT"
+                viewAll="VIS ALLE PROJEKTBESKRIVELSER"
             />
         </Layout>
     );
