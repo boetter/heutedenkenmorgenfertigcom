@@ -1,4 +1,3 @@
-import Link from "next/link";
 import cn from "classnames";
 import styles from "./Project.module.sass";
 import Image from "@/components/Image";
@@ -10,10 +9,7 @@ type ProjectProps = {
 
 const Project = ({ item, light }: ProjectProps) => (
     <div className={styles.project}>
-        <Link
-            className={cn(styles.inner, { [styles.innerLight]: light })}
-            href={`/projekter/${item.id}`}
-        >
+        <div className={cn(styles.inner, { [styles.innerLight]: light })}>
             <div className={styles.preview}>
                 <Image
                     src={item.image}
@@ -33,7 +29,7 @@ const Project = ({ item, light }: ProjectProps) => (
                     </div>
                 ))}
             </div>
-        </Link>
+        </div>
     </div>
 );
 

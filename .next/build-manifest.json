@@ -30,6 +30,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/eksperimenter": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/eksperimenter.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kontakt.js"
+    ],
     "/om-virksomheden": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -44,11 +54,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/ydelser.js"
-    ],
-    "/ydelser/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/ydelser/[id].js"
     ]
   },
   "ampFirstPages": []
