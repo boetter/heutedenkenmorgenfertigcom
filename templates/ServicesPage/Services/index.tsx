@@ -30,7 +30,7 @@ const Services = ({ items }: ServicesProps) => (
                             </div>
                             <div className={styles.wrap}>
                                 <div className={styles.description}>
-                                    {service.description}
+                                    {service.kortforklaring}
                                 </div>
                                 <Link
                                     className={cn("button", styles.button)}

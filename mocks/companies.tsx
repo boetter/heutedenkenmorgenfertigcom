@@ -64,42 +64,42 @@ export const companies = [
 export const companiesLight = [
     {
         id: "0",
-        image: "/images/companies/velocity-9-light.png",
+        image: "/images/companies/dr-light.png",
     },
     {
         id: "1",
-        image: "/images/companies/kanba-light.png",
+        image: "/images/companies/energinet-light.png",
     },
     {
         id: "2",
-        image: "/images/companies/code-lab-light.png",
+        image: "/images/companies/trackunit-light.png",
     },
     {
         id: "3",
-        image: "/images/companies/hexa-light.png",
+        image: "/images/companies/novo-light.png",
     },
     {
         id: "4",
-        image: "/images/companies/muzica-light.png",
+        image: "/images/companies/molio-light.png",
     },
     {
         id: "5",
-        image: "/images/companies/treva-light.png",
+        image: "/images/companies/hk-light.png",
     },
     {
         id: "6",
-        image: "/images/companies/fox-hub-light.png",
+        image: "/images/companies/regionsj-light.png",
     },
     {
         id: "7",
-        image: "/images/companies/liva-light.png",
+        image: "/images/companies/aarhus-light.png",
     },
     {
         id: "9",
-        image: "/images/companies/zoo-tv-light.png",
+        image: "/images/companies/bestseller-light.png",
     },
     {
         id: "8",
-        image: "/images/companies/utosia-light.png",
+        image: "/images/companies/ms-light.png",
     },
 ];

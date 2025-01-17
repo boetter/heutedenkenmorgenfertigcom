@@ -59,9 +59,8 @@ class MyDocument extends Document {
                         name="viewport"
                         content="width=device-width, initial-scale=1"
                     />
-                    <meta name="theme-color" content="#000000" />
-                    <meta name="msapplication-TileColor" content="#da532c" />
-                    <meta name="theme-color" content="#ffffff" />
+                    <meta name="theme-color" content="#0FA053" />
+                    <meta name="msapplication-TileColor" content="#0FA053" />
                 </Head>
                 <body className="app">
                     <Main />

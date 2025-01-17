@@ -10,36 +10,36 @@ import Projects from "@/components/Projects";
 
 import { companiesLight } from "@/mocks/companies";
 import { projects } from "@/mocks/projects";
-
-const gallery = [
-    { image: "/images/photo-4.jpg" },
-    { image: "/images/photo-5.jpg" },
-    { image: "/images/photo-6.jpg" },
-    { image: "/images/photo-7.jpg" },
-];
+import { services } from "@/mocks/services";
 
 const ServicePage = ({ id }: any) => {
+    const service = services.find((service) => service.id === id);
+
+    if (!service) {
+        return <div>Service not found</div>;
+    }
+
     return (
         <Layout>
             <Main id={id} />
-            <Details />
-            <Preview className="section-mb120" video="/videos/video-1.mp4" />
-            <Plans />
-            <Gallery images={gallery} />
-            <Preview className="section-mb160" image="/images/image-2.jpg" />
-            <Description />
+            <Details id={id} />
+            <Preview className="section-mb120" video={service.video} />
+            <Plans id={id} />
+            <Gallery images={service.gallery} />
+            <Preview className="section-mb160" image={service.previewImage} />
+            <Description id={id} />
             <div className="section-pd section-black">
                 <Companies
                     className="section-mb120 section-separator"
-                    title="We built outstanding marketing and communication plans for them."
+                    title="Erfaring fra en lang række tidligere projekter de seneste 20 år"
                     items={companiesLight}
                 />
                 <Projects
-                    title="Successful marketing and communication plans we developed"
-                    label="STORIES"
+                    title="Læs mere om udvalgte tidligere projekter"
+                    label="CASES"
                     items={projects}
                     viewItem={4}
-                    viewAll="VIEW MORE PROJECT"
+                    viewAll="VIS FLERE PROJEKTER"
                     dark
                 />
             </div>

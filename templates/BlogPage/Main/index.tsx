@@ -15,16 +15,16 @@ const Main = ({ id }: MainProps) => {
         <>
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
-                    <div className={styles.date}>{blog.date}</div>
+                    <div className={styles.date}>{blog.category}</div>
                     <div className={cn("h4", styles.title)}>{blog.title}</div>
                     <div className={styles.list}>
                         <div className={styles.item}>
-                            <div className={styles.category}>Written by</div>
+                            <div className={styles.category}>Skrevet af</div>
                             <div className={styles.text}>{blog.author}</div>
                         </div>
                         <div className={styles.item}>
-                            <div className={styles.category}>Category</div>
-                            <div className={styles.text}>{blog.category}</div>
+                            <div className={styles.category}>Dato</div>
+                            <div className={styles.text}>{blog.date}</div>
                         </div>
                     </div>
                 </div>

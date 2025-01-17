@@ -2,28 +2,34 @@ import Link from "next/link";
 import cn from "classnames";
 import styles from "./Description.module.sass";
 
-type DescriptionProps = {};
+import { services } from "@/mocks/services";
 
-const Description = ({}: DescriptionProps) => (
-    <div className={cn("section-mb160", styles.section)}>
-        <div className={cn("container", styles.container)}>
-            <div className={cn("h5", styles.title)}>
-                Build your marketing and communication plan with outstanding
-                strategists
-            </div>
-            <div className={styles.wrap}>
-                <div className={styles.content}>
-                    We can provide you with a custom marketing and communication
-                    plan to help you achieve your business objectives. Send us a
-                    message to get in touch. Together, we look forward to
-                    discovering new areas.
+type DescriptionProps = {
+    id: string;
+};
+
+const Description = ({ id }: DescriptionProps) => {
+    const service = services.find((service) => service.id === id);
+
+    if (!service || !service.description) {
+        return <div>No description available for this service</div>;
+    }
+
+    const { title, content, buttonText, buttonLink } = service.description;
+
+    return (
+        <div className={cn("section-mb160", styles.section)}>
+            <div className={cn("container", styles.container)}>
+                <div className={cn("h5", styles.title)}>{title}</div>
+                <div className={styles.wrap}>
+                    <div className={styles.content}>{content}</div>
+                    <Link className={cn("button", styles.button)} href={buttonLink}>
+                        {buttonText}
+                    </Link>
                 </div>
-                <Link className={cn("button", styles.button)} href="/contact">
-                    CONTACT US NOW
-                </Link>
             </div>
         </div>
-    </div>
-);
+    );
+};
 
 export default Description;

@@ -11,6 +11,7 @@ const Content = ({ title, content }: ContentProps) => (
         <div className={cn("container", styles.container)}>
             <div className={cn("h5", styles.title)}>{title}</div>
             <div className={styles.content}>{content}</div>
+
         </div>
     </div>
 );

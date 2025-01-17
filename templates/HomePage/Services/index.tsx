@@ -22,7 +22,7 @@ const Services = ({ items }: ServicesProps) => (
                     <Link
                         className={styles.item}
                         key={service.id}
-                        href={`/services/${service.id}`}
+                        href={`/ydelser/${service.id}`}
                     >
                         <div className={cn("label", styles.number)}>
                             {index < 9 ? `0${index + 1}` : index + 1}

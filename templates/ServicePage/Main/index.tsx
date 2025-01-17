@@ -12,7 +12,11 @@ type MainProps = {
 const Main = ({ id }: MainProps) => {
     const service = services.find((service) => service.id === id);
 
-    return service ? (
+    if (!service) {
+        return <div>Service not found</div>;
+    }
+
+    return (
         <>
             <div
                 className={cn(
@@ -25,21 +29,16 @@ const Main = ({ id }: MainProps) => {
                         {service.title}
                     </div>
                     <div className={cn(styles.content, styles.contentMobile)}>
-                        Like a spotlight, strategic marketing communication
-                        enables you to concentrate solely on the audiences you
-                        want to reach and the connections you want to make. You
-                        can develop potent, targeted, and focused messages by
-                        implementing an integrated marketing and communication
-                        strategy.
+                        {service.kortforklaring}
                     </div>
                     <div className={styles.row}>
                         <div className={cn("image", styles.image)}>
                             <Image
-                                src="/images/photo-3.jpg"
+                                src={service.image}
                                 fill
                                 style={{ objectFit: "cover" }}
                                 sizes="(max-width: 767px) 100vw, 50vw"
-                                alt=""
+                                alt={service.title}
                             />
                         </div>
                         <div className={styles.wrap}>
@@ -49,24 +48,17 @@ const Main = ({ id }: MainProps) => {
                                     styles.contentDesktop
                                 )}
                             >
-                                Like a spotlight, strategic marketing
-                                communication enables you to concentrate solely
-                                on the audiences you want to reach and the
-                                connections you want to make. You can develop
-                                potent, targeted, and focused messages by
-                                implementing an integrated marketing and
-                                communication strategy.
+                                {service.kortforklaring}
                             </div>
                             <div className={styles.details}>
                                 <div className={cn("h7", styles.info)}>
-                                    Get focused with a marketing and
-                                    communication plan
+                                    {service.info}
                                 </div>
                                 <Link
                                     className={cn("button", styles.button)}
-                                    href="/contact"
+                                    href={service.buttonLink}
                                 >
-                                    MAKE YOUR SELF HEARD
+                                    {service.buttonText}
                                 </Link>
                             </div>
                         </div>
@@ -74,7 +66,7 @@ const Main = ({ id }: MainProps) => {
                 </div>
             </div>
         </>
-    ) : null;
+    );
 };
 
 export default Main;
