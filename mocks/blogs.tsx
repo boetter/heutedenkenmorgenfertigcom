@@ -14,7 +14,7 @@ export const blogs = [
                 </p>
                 <p>
                    
-                    <a class='button' href='https://www.youtube.com/playlist?list=PLRvV0PCEYBC32D3HlJmwGhbnzO0l9mwoX'>Se julekalenderen på YouTube</a>.
+                    <a className='button' href='https://www.youtube.com/playlist?list=PLRvV0PCEYBC32D3HlJmwGhbnzO0l9mwoX'>Se julekalenderen på YouTube</a>.
                 </p>
             </>
         ),
@@ -37,7 +37,7 @@ export const blogs = [
                 </p>                
                 <p>
                    
-                    <a class='button' href='https://rf-24.glide.page'>Afprøv app fra 2024</a>.
+                    <a className='button' href='https://rf-24.glide.page'>Afprøv app fra 2024</a>.
                 </p>
             </>
         ),
@@ -60,7 +60,7 @@ export const blogs = [
                 </p>                
                 <p>
                    
-                    <a class='button' href='https://prompt.boetter.dk'>Afprøv prompt værktøj</a>.
+                    <a className='button' href='https://prompt.boetter.dk'>Afprøv prompt værktøj</a>.
                 </p>
             </>
         ),
@@ -83,7 +83,7 @@ export const blogs = [
                 </p>                
                 <p>
                    
-                    <a class='button' href='https://www.youtube.com/playlist?list=PLRvV0PCEYBC0mIfRsSbHtT4AxqyJ7VOZf'>Se de mange guides</a>.
+                    <a className='button' href='https://www.youtube.com/playlist?list=PLRvV0PCEYBC0mIfRsSbHtT4AxqyJ7VOZf'>Se de mange guides</a>.
                 </p>
             </>
         ),
@@ -106,7 +106,7 @@ export const blogs = [
                 </p>                
                 <p>
                    
-                    <a class='button' href='https://thisjacobdoesntexist.boetter.dk'>Se de falske billeder</a>.
+                    <a className='button' href='https://thisjacobdoesntexist.boetter.dk'>Se de falske billeder</a>.
                 </p>
             </>
         ),
