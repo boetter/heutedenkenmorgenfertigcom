@@ -5,7 +5,7 @@ const list = [
     {
         title: "Konkret og virkeligt.",
         content:
-            'Alt for meget teknologiarbejde er præget af buzzwords og tomme løfter. Jeg tænder på at realisere virkelige og konkrete muligheder, fremfor blot at tale om fugle på taget der måske en dag lander i hånden.',
+            'Alt for meget teknologiarbejde er præget af buzzwords, lange processer og tomme løfter. I projekter med mig ved roret realiserer vi virkelige og konkrete muligheder, fremfor blot at tale om fugle på taget, der måske en dag lander i hånden.',
     },
     {
         title: "Teknologi kan skabes af alle.",
@@ -31,7 +31,7 @@ const Values = ({}: ValuesProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>JEG TROR PÅ</div>
             <div className={cn("h7", styles.subtitle)}>
-                Det skal kort sagt være nemt og sjovt at arbejde sammen med mig. Jeg har beskrevet de fire vigtigste grundtræk i et godt samarbejde som jeg ser det nedenfor.
+            Det skal kort sagt være nemt og sjovt at arbejde sammen med mig. Jeg har beskrevet de fire vigtigste grundtræk i et godt samarbejde, som jeg ser det, nedenfor.
             </div>
             <div className={styles.list}>
                 {list.map((item, index) => (

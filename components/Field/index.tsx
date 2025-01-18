@@ -5,6 +5,7 @@ type FieldProps = {
     className?: string;
     label?: string;
     number?: string;
+    name?: string;   
     textarea?: boolean;
     type?: string;
     value: string;
@@ -17,6 +18,7 @@ const Field = ({
     className,
     label,
     number,
+    name,
     textarea,
     type,
     value,
@@ -40,6 +42,7 @@ const Field = ({
             {textarea ? (
                 <textarea
                     className={styles.textarea}
+                    name={name}
                     value={value}
                     onChange={onChange}
                     placeholder={placeholder}
@@ -48,6 +51,7 @@ const Field = ({
             ) : (
                 <input
                     className={styles.input}
+                    name={name}
                     type={type || "text"}
                     value={value}
                     onChange={onChange}

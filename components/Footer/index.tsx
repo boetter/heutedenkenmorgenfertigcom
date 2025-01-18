@@ -114,19 +114,17 @@ const Footer = ({ empty }: FooterProps) => {
                     </div>
                     <a
                         className={styles.policy}
-                        href="#"
+                        href="http://jacob.boetter.dk"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Privacy Policy
-                    </a> Se også&nbsp;
+                        Jacob Bøtter
+                    </a> Skriv til mig på&nbsp;
                     <a
                         className={styles.author}
-                        href="https://nocodeprototype.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="mailto:jacob@boetter.dk"
                     >
-                        nocodeprototype.com
+                        jacob@boetter.dk
                     </a>
                 </div>
             </div>

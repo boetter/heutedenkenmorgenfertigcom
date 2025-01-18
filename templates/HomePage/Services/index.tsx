@@ -14,8 +14,7 @@ const Services = ({ items }: ServicesProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>PRIMÆRE YDELSER</div>
             <div className={cn("h7", styles.info)}>
-                Jacob Bøtter understøtter dine kolleger i en kortere periode, enten for at bygge prototyper eller træne dem.
-                
+            Jeg understøtter dine kolleger i en kortere periode for at træne dem eller bygge prototyper.
             </div>
             <div className={styles.list}>
                 {items.slice(0, 5).map((service, index) => (

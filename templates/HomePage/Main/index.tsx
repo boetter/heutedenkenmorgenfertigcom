@@ -34,7 +34,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                         </div>
                     </div>
                     <div className={styles.info}>
-                        Generativ AI har potentialet til at forbedre dit arbejde og din organisation markant, men det sker ikke af sig selv. Jeg hjælper med at finde de største potentialer, afprøve dem i praksis og ikke mindst træne dine kolleger i at få maksimal værdi af ChatGPT og alle de andre nye AI-værktæjer.
+                    Generativ AI har potentialet til at forbedre dit arbejde og din organisation markant, men det sker ikke af sig selv. Jeg hjælper med at finde de største potentialer, afprøve dem i praksis og ikke mindst træne dine kolleger i at få maksimal værdi af ChatGPT og alle de andre nye AI-værktøjer.
                     </div>
                 </div>
                 <div className={styles.actions}>

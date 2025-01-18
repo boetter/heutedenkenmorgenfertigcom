@@ -1,9 +1,8 @@
 import { useState } from "react";
-import Link from "next/link";
+
 import cn from "classnames";
 import styles from "./Form.module.sass";
 import Field from "@/components/Field";
-import Select from "@/components/Select";
 
 type FormProps = {};
 
@@ -12,76 +11,48 @@ const Form = ({}: FormProps) => {
     const [email, setEmail] = useState<string>("");
     const [phone, setPhone] = useState<string>("");
     const [company, setCompany] = useState<string>("");
-    const [service, setService] = useState<string>("");
-    const [budget, setBudget] = useState<string>("");
     const [description, setDescription] = useState<string>("");
 
-    const optionsService = [
-        {
-            title: "Marketing and Communication Plan",
-            value: "marketing-and-communication-plan",
-        },
-        {
-            title: "Branding",
-            value: "branding",
-        },
-        {
-            title: "Digital Campaigns",
-            value: "digital-campaigns",
-        },
-        {
-            title: "Programmatic Advertising",
-            value: "programmatic-advertising",
-        },
-        {
-            title: "Marketing as a Service",
-            value: "marketing-as-a-service",
-        },
-        {
-            title: "Website",
-            value: "website",
-        },
-        {
-            title: "Innovation Spirit",
-            value: "innovation-spirit",
-        },
-        {
-            title: "Public Realations",
-            value: "public-realations",
-        },
-    ];
+    const [status, setStatus] = useState(null);
+    const [error, setError] = useState(null);
 
-    const optionsBudget = [
-        {
-            title: "<$50k",
-            value: "<$50k",
-        },
-        {
-            title: "$50k-100k",
-            value: "$50k-100k",
-        },
-        {
-            title: "$100k-200k",
-            value: "$100k-200k",
-        },
-        {
-            title: "$200k+",
-            value: "$200k+",
-        },
-    ];
+    const handleFormSubmit = async (event) => {
+        event.preventDefault();
+        try {
+            setStatus('pending');
+            setError(null);
+            const myForm = event.target;
+            const formData = new FormData(myForm);
+            const res = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
+            });
+            if (res.status === 200) {
+                setStatus('ok');
+            } else {
+                setStatus('error');
+                setError(`${res.status} ${res.statusText}`);
+            }
+        } catch (e) {
+            setStatus('error');
+            setError(`${e}`);
+        }
+    };
 
-    const handleChangeService = (value: string) => setService(value);
-    const handleChangeBudget = (value: string) => setBudget(value);
 
     return (
         <form
             className={styles.form}
+            name="contact"
             action=""
-            onSubmit={() => console.log("Submit")}
+            onSubmit={handleFormSubmit}
         >
+            <input type="hidden" name="form-name" value="contact" />
             <Field
                 className={styles.field}
                 number="01"
+                name="navn"
                 label="Hvad er dit navn?"
                 placeholder="F.eks. Jacob Bøtter"
                 value={name}
@@ -91,6 +62,7 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="02"
+                name="email"
                 label="Hvad er din email-adresse?"
                 placeholder="F.eks. jacob@boetter.dk"
                 type="email"
@@ -101,7 +73,8 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="03"
-                label="What’s your phone number?"
+                name="telefon"
+                label="Hvad er dit telefonnummer?"
                 placeholder="F.eks. +45 31 68 30 14"
                 type="tel"
                 value={phone}
@@ -111,6 +84,7 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="04"
+                name="virksomhed"
                 label="Hvad hedder din virksomhed/organisation?"
                 placeholder="F.eks. Heute denken, morgen fertig"
                 value={company}
@@ -121,18 +95,33 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="05"
+                name="besked"
                 label="Hvad kan jeg hjælpe dig med?"
                 placeholder="F.eks. brug for rådgivning til nyt AI projekt"
                 value={description}
                 onChange={(e: any) => setDescription(e.target.value)}
                 required
             />
-            {/* <button className={cn("button-light", styles.button)} type="submit">
-                SEND MESSAGE
-            </button> */}
-            <Link className={cn("button-light", styles.button)} href="/thanks">
+            <button className={cn("button-light", styles.button)} type="submit">
                 SEND BESKED
-            </Link>
+            </button>
+            {/* <Link className={cn("button-light", styles.button)} href="/thanks">
+                SEND BESKED
+            </Link> */}
+
+{status === 'ok' && (
+                        <div className="alert alert-success">
+ 
+                            Submitted!
+                        </div>
+                    )}
+                    {status === 'error' && (
+                        <div className="alert alert-error">
+                            
+                            {error}
+                        </div>
+                    )}
+
         </form>
     );
 };

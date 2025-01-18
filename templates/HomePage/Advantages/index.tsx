@@ -28,11 +28,11 @@ const Advantages = ({}: AdvantagesProps) => (
         className={cn("section-mb160 section-pd section-black", styles.section)}
     >
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>Hvorfor vælge HDMF?</div>
+            <div className={cn("label", styles.label)}>Hvorfor vælge Heute denken, morgen fertig?</div>
             <div className={cn("section-mb120", styles.row)}>
                 <div className={styles.wrap}>
                     <div className={cn("h5", styles.title)}>
-                        Det behøver ikke være svært at komme i gang med AI                    </div>
+                        Tilknyt en ekspert fra øverste hylde til dit projekt</div>
                     <Link
                         className={cn("button-light", styles.button)}
                         href="/projekter"
@@ -42,10 +42,10 @@ const Advantages = ({}: AdvantagesProps) => (
                 </div>
                 <div className={styles.content}>
                     <p>
-                        Når du vælger Heute denken, morgen fertig får du én dedikeret ressource. Her er ingen juniorkonsulenter eller andre tricks til at hive prisen op. Du får mig, Jacob Bøtter, som har mere end 20 års erfaring med at hjælpe organisationer med at få værdi ud af AI og andre nye teknologier.
+                    Når du vælger Heute denken, morgen fertig får du én dedikeret ressource. Med mig får du mere end 20 års erfaring med at hjælpe organisationer med at få værdi ud af AI og andre nye teknologier.
                     </p>
                     <p>
-                        Min tilgang er at gøre det komplekse simpelt. Det er rent faktisk muligt at afprøve AI uden en stor strategi. Du kan rent faktisk give dine kolleger nye kompetencer inden I har valgt den helt rigtige AI-platform.
+                    Min tilgang er at gøre det komplekse simpelt. Det er rent faktisk muligt at afprøve AI uden en stor strategi. Du og dine kolleger kan få nye kompetencer, allerede inden I har valgt den helt rigtige AI-platform. Har I allerede en strategi og en platform, så kan jeg understøtte dette gennem intensiv træning og rådgivning.
                     </p>
                 </div>
             </div>

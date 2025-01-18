@@ -14,7 +14,7 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        Heute denken, morgen fertig er Jacob Bøtters legeplads for eksperimenter med AI og andre nye teknologier.
+                        Heute denken, morgen fertig er Jacob Bøtters konsulentvirksomhed der træner og rådgiver virksomheder i AI.
                     </div>
                 </div>
             </div>
