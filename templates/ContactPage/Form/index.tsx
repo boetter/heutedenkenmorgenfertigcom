@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import { FormEvent, useState } from "react";
 import cn from "classnames";
 import styles from "./Form.module.sass";
 import Field from "@/components/Field";
@@ -13,39 +12,41 @@ const Form = ({}: FormProps) => {
     const [company, setCompany] = useState<string>("");
     const [description, setDescription] = useState<string>("");
 
-    const [status, setStatus] = useState(null);
-    const [error, setError] = useState(null);
+    const [status, setStatus] = useState<"pending" | "ok" | "error" | null>(null);
+    const [error, setError] = useState<string | null>(null);
 
-    const handleFormSubmit = async (event) => {
+    // Tilføj typen FormEvent<HTMLFormElement>
+    const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         try {
-            setStatus('pending');
+            setStatus("pending");
             setError(null);
-            const myForm = event.target;
+
+            const myForm = event.target as HTMLFormElement;
             const formData = new FormData(myForm);
-            const res = await fetch('/__forms.html', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
+            
+            const res = await fetch("/__forms.html", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData as any).toString(),
             });
+
             if (res.status === 200) {
-                setStatus('ok');
+                setStatus("ok");
             } else {
-                setStatus('error');
+                setStatus("error");
                 setError(`${res.status} ${res.statusText}`);
             }
         } catch (e) {
-            setStatus('error');
-            setError(`${e}`);
+            setStatus("error");
+            setError(String(e));
         }
     };
-
 
     return (
         <form
             className={styles.form}
             name="contact"
-            action=""
             onSubmit={handleFormSubmit}
         >
             <input type="hidden" name="form-name" value="contact" />
@@ -91,7 +92,6 @@ const Form = ({}: FormProps) => {
                 onChange={(e: any) => setCompany(e.target.value)}
                 required
             />
-
             <Field
                 className={styles.field}
                 number="05"
@@ -105,23 +105,17 @@ const Form = ({}: FormProps) => {
             <button className={cn("button-light", styles.button)} type="submit">
                 SEND BESKED
             </button>
-            {/* <Link className={cn("button-light", styles.button)} href="/thanks">
-                SEND BESKED
-            </Link> */}
 
-{status === 'ok' && (
-                        <div className="alert alert-success">
- 
-                            Submitted!
-                        </div>
-                    )}
-                    {status === 'error' && (
-                        <div className="alert alert-error">
-                            
-                            {error}
-                        </div>
-                    )}
-
+            {status === "ok" && (
+                <div className="alert alert-success">
+                    Submitted!
+                </div>
+            )}
+            {status === "error" && (
+                <div className="alert alert-error">
+                    {error}
+                </div>
+            )}
         </form>
     );
 };
