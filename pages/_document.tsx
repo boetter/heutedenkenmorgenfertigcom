@@ -17,8 +17,8 @@ class MyDocument extends Document {
             <Html lang="da">
                 <Head>
                     <meta
-                        content="Heute denken, morgen fertig"
-                        name="Rådgivning og træning i Generativ AI af Jacob Bøtter"
+                        name="description"
+                        content="Rådgivning og træning i Generativ AI af Jacob Bøtter"
                     />
                     <meta
                         content="Heute denken, morgen fertig"
