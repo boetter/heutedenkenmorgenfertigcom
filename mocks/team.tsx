@@ -103,7 +103,7 @@ export const team = [
         position: "Rådgiver",
         photo: "/images/team/photo-8.jpg",
         description:
-            "Rikke har været direktør og redaktør for både Netdoktor og Dagens Medicin. I dag arbejder hun med start-ups på DTU og samarbejder med Jacob om at få mere og bedre AI ind i sundhedsvæsenet.",
+            "Rikke har været direktør og chefredaktør for både Netdoktor og Dagens Medicin. I dag arbejder hun med start-ups på DTU og samarbejder med Jacob om at få mere og bedre AI ind i sundhedsvæsenet.",
         socials: [
             {
                 icon: "linkedin",
