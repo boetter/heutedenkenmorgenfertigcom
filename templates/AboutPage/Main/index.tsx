@@ -14,7 +14,7 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        Heute denken, morgen fertig er Jacob Bøtters konsulentvirksomhed der træner og rådgiver virksomheder i AI.
+                        Jeg træner og rådgiver virksomheder i AI, for at omsætte vores store visioner til konkrete resultater.
                     </div>
                 </div>
             </div>

@@ -17,10 +17,10 @@ const AboutUs = ({ scrollToRef }: AboutUsProps) => (
                 </div>
                 <ul className={styles.list}>
                     <li>
-                    Jeg har brugt de sidste 20 år på at udforske, hvordan fremtidens teknologier forandrer vores arbejde. Det er blevet til seks bøger og mere end 500 foredrag.
+                    Jeg har brugt de sidste 20 år på at udforske, hvordan fremtidens teknologier forandrer vores arbejde, hvilket har resulteret i seks bøger og over 500 foredrag.
                     </li>
                     <li>
-                    I min virksomhed, Heute denken, morgen fertig, hjælper jeg større virksomheder og organisationer med at få værdi ud af AI og andre nye digitale teknologier. Tilgangen er simple samarbejdsflader, konkrete resultater, no-bullshit rådgivning og masser af prototyper.
+                    Gennem min virksomhed, Heute denken, morgen fertig, hjælper jeg større virksomheder og organisationer med at implementere AI og andre digitale teknologier – uden at drukne i buzzwords. Min tilgang er enkel: Tæt samarbejde, konkrete prototyper og no-bullshit rådgivning.
                     </li>
                 </ul>
                 <Link className={cn("button", styles.button)} href="/om-virksomheden">

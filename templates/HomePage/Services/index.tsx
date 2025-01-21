@@ -14,7 +14,7 @@ const Services = ({ items }: ServicesProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>PRIMÆRE YDELSER</div>
             <div className={cn("h7", styles.info)}>
-            Jeg understøtter dine kolleger i en kortere periode for at træne dem eller bygge prototyper.
+            Med den rette vejledning kan jeres organisation opnå store gevinster på kort tid. Jeg hjælper jer fra vision til konkrete resultater, uanset om I er helt nye inden for AI eller allerede godt på vej.
             </div>
             <div className={styles.list}>
                 {items.slice(0, 5).map((service, index) => (

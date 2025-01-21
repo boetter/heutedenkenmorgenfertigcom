@@ -21,10 +21,10 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        Det skal være nemt at få værdi ud af AI.
+                        Det skal være nemt at få værdi ud af AI
                     </div>
                     <div className={styles.info}>
-                        Det er ofte alt for besværligt at komme i gang med AI. Jeg har sammensat mine ydelser på en sådan måde at du relativt gnidnigsfrit kan få værdi ud af samarbejdet her og nu – og ikke først om flere år.
+                    AI kan virke komplekst, og der er nok af eksempler på både hype og mislykkede projekter. Men det behøver ikke at tage flere år at komme i gang. Med den rette tilgang og træning kan I hurtigt se konkrete resultater – uanset hvor langt I er i processen allerede.
                     </div>
                 </div>
             </div>

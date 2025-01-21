@@ -44,7 +44,18 @@ const socials = [
     },
 ];
 
-const TEXTS = ["stort", "fedt", "nyt", "vildt", "smukt", "sjovt", "unikt", "flot", "klogt", "smart"];
+const TEXTS = ["innovativt", "fedt", "nyt", "vildt", "stort", "sjovt", "unikt", "klogt", "smart",
+    "genialt",
+    "lækkert",
+    "tjekket",
+    "sprødt",
+    "snedigt",
+    "forrygende",
+    "strålende",
+    "spændende",
+    "magisk",
+    "skarpt"
+];
 
 type FooterProps = {
     empty?: boolean;

@@ -2,10 +2,10 @@ export const team = [
     {
         id: "0",
         title: "Jacob Bøtter",
-        position: "DIREKTØREN FOR DET HELE",
+        position: "RÅDGIVER",
         photo: "/images/team/photo-1.jpg",
         description:
-            "Her indsættes en tekst om Jacob :-)",
+            "Heute denken, morgen fertig er Jacob Bøtters konsulentvirksomhed. Her samarbejder han med nogle af Danmarks skarpeste hjerner om at forbedre danske virksomheders værdiskabelse gennem anvendelse af AI og andre nye digitale teknologier.",
         socials: [
             {
                 icon: "linkedin",
@@ -61,7 +61,7 @@ export const team = [
         position: "Rådgiver",
         photo: "/images/team/photo-5.jpg",
         description:
-            "Peder arbejder i virkeligheden på Journalisthøjskolen, men her har han fået så god erfaring med at uddanne journalister i at bruge AI, at han og Jacob nu samarbejder om at gøre det samme i andre brancher.",
+            "Peder arbejder i virkeligheden på Journalisthøjskolen (DMJX), men her har han fået så god erfaring med at uddanne journalister i at bruge AI, at han og Jacob nu samarbejder om at gøre det samme i andre brancher.",
         socials: [
             {
                 icon: "linkedin",

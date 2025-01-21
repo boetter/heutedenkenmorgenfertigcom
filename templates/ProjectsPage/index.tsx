@@ -26,7 +26,7 @@ const ProjectsPage = () => {
             />
             <Companies
                 className="section-mb160"
-                title="Trusted with more than 150 Companies since 2012"
+                title="Erfaring fra over 100 tidligere projekter"
                 items={companies}
             />
         </Layout>

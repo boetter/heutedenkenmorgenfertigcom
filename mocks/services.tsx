@@ -4,28 +4,28 @@ export const services = [
         title: "LÆRINGSFORLØB",
         subtitle: "Get focused with a learning program",
         kortforklaring:
-            "Alle dine kolleger fortjener at få fremtidens superkræfte med Generativ AI. Jacob følger dem tæt, gennem et skræddersyet træningsprogram der veksler mellem coaching, undervisning og praktiske opgaver.",
+            "Giv dine kolleger fremtidens superkræfter med Generativ AI. Med Jacob som sparringspartner får I et skræddersyet træningsprogram, der kombinerer engagerende undervisning, tæt coaching og virkelighedsnære opgaver.",
         info: "Forløbet tilpasses altid til den enkelte organisation",
         image: "/images/photo-1.jpg",
         buttonText: "BESTIL TILBUD PÅ FORLØB",
         detailsHead: "Træning i Generativ AI",
-        detailsDesc: "Forløbet kan tilpasses alt fra 5 til 500 deltagere, fra en uge til et år. Det afgørende er at skabe en ramme for at udforske de nye muligheder i et trygt rum, hvor vi kan tillade os at blive fascinerede og chokerede på samme tid.",                
+        detailsDesc: "Uanset om I er 5 eller 500 deltagere, skaber jeg et forløb, der passer til jeres behov – fra en intensiv uge til et helt års rejse. Fokus er på at udforske de mange muligheder i et trygt miljø, hvor fascination og forundring går hånd i hånd. Her er virkelig ingen dumme spørgsmål, for det handler om at lære i samlet flok.",                
         buttonLink: "/kontakt",
         details: [
             {
                 title: "Undervisning",
                 content:
-                    "Jacob vækker deltagernes begejstring for muligheder med de nye AI-værktøjer ved at introducere dem til smarte måder at anvende ChatGPT, Copilot, Ideogram, Chatbase, NotebookLM, Claude, Perplexity og mange flere.",
+                    "Jacob inspirerer og begejstrer ved at introducere deltagerne til de mest innovative AI-værktøjer – fra ChatGPT og Copilot til Claude og Perplexity – og viser, hvordan de kan skabe reel værdi i hverdagen. Udgangspunktet er hans egen praktiske anvendelse af værktøjerne.",
             },
             {
                 title: "Coaching",
                 content:
-                    "Alle kan holde et heldagskursus om AI, men værdien kommer først for alvor når vi tør lade værktøjerne ændre vores daglige adfærd på kontoret. Jacob følger derfor deltagerne tæt gennem coachingsessioner, hvor han udfordrer dem til at tænke nyt.",
+                    "Alle kan deltage i et kursus om AI, men værdien kommer først for alvor når vi tør lade værktøjerne ændre vores daglige adfærd på kontoret. Jacob følger derfor deltagerne tæt gennem coachingsessioner, hvor han udfordrer dem til at tænke nyt.",
             },
             {
                 title: "Selvstudie",
                 content:
-                    "Alt for ofte er træning i AI bygget op om tænkte cases og eksempler, som er svære at overføre til hverdagen. Jacob inddeler deltagerne i studiegrupper der får til opgave at løse konkrete udfordringer der skaber værdi ligenu og rapportere tilbage til den samlede gruppe med deres erfaringer.",
+                    "For at sikre, at AI-træningen skaber reel værdi, arbejder deltagerne i grupper med konkrete opgaver fra deres hverdag. De deler deres erfaringer med resten af deltagerne og omsætter læringer til handlinger.",
             },
         ],
         plans: {
@@ -74,28 +74,28 @@ export const services = [
         title: "RÅDGIVNING",
         subtitle: "Strategic AI Consulting",
         kortforklaring:
-            "Få lagt en plan for hvordan din organisation kan få mest mulig værdi ud af AI og andre nye teknologier. Vi spotter sammen de største potentialer og lægger en plan for at få dem udfoldet.",
-            info: "Jacob Bøtter er en selvstændig rådgiver og kan derfor fungere som uvildig sparringspartner ved indkøb af større konsulentprojekter.",
+            "Få lagt en plan for, hvordan din organisation kan få mest mulig værdi ud af AI og andre nye teknologier. Sammen identificerer vi de største potentialer og lægger en konkret plan for at udfolde dem.",
+            info: "Book et gratis afklaringsmøde.",
             image: "/images/photo-2.jpg",
-            buttonText: "KONTAKT JACOB FOR AT HØRE MERE",
+            buttonText: "KONTAKT JACOB",
             detailsHead: "Strategisk og praktisk rådgivning",
-            detailsDesc: "Jacob indgår typisk i længere rådgivningsforløb (de fleste rådgivningsprojekter løber over 6 til 18 måneder), hvor han følger virksomhedens udvikling med AI tæt og løbende rådgiver om valg af teknologier, partnere og strategier. Han har lang erfaring for at arbejde med softwareudvikling, compliance og forretningsudvikling.",                
+            detailsDesc: "Jeg indgår typisk i længere rådgivningsforløb – de fleste strækker sig over 6 til 18 måneder – hvor jeg følger jeres udvikling med AI tæt. Jeg rådgiver løbende om valg af teknologier, partnere og strategier.",                
             buttonLink: "/kontakt",
             details: [
                 {
                     title: "Kom godt i gang",
                     content:
-                        "Det kan virke uoverskueligt og omkosteligt at komme i gang med at bruge AI til at forbedre din virksomhed, men sådan behøver det ikke være. Jacob kan hjælpe jer med at lægge en plan for hvordan I kan komme i gang med at bruge AI på en måde der skaber værdi for jer.",
+                        "Det kan virke uoverskueligt og dyrt at komme i gang med AI, men sådan behøver det ikke at være. Jeg hjælper jer med at udarbejde en konkret plan for, hvordan I kan bruge AI til at skabe værdi for virksomheden.",
                 },
                 {
                     title: "Valg af teknologi",
                     content:
-                        "På flere projekter optræder Jacob som en slags teknologi spejder, der holder sig orienteret med de nyeste teknologier og hjælper jer med at vælge de rigtige teknologier til jeres behov. Oftest vil disse valg skulle genbesøges hvert 3. eller 6. måned, på grund af teknologiens hurtige udvikling.",
+                        "Jeg fungerer som jeres teknologispejder og holder mig konstant opdateret på de nyeste teknologier. Jeg hjælper jer med at vælge de løsninger, der bedst matcher jeres behov. Disse valg genbesøger vi typisk hver tredje eller sjette måned for at følge med teknologiens hurtige udvikling.",
                 },
                 {
                     title: "Løbende sparring",
                     content:
-                        "AI handler ikke bare om at indkøbe noget teknologi og vente på det spreder sig. Det kræver en vedvarende indsats at få AI til at skabe værdi for jer. Jacob kan hjælpe jer med at holde fokus og retning i jeres AI-projekter gennem løbende rådgivning. På nogle projekter indgår han sågar i faste møder rækker med den lokale ledelse.",
+                        "AI handler ikke kun om at indkøbe teknologi og vente på, at det spreder sig. Det kræver en vedvarende indsats at sikre, at AI skaber værdi. Jeg hjælper jer med at fastholde fokus og retning gennem løbende rådgivning. På nogle projekter deltager jeg endda i faste møder med den lokale ledelse.",
                 },
             ],
             plans: {
@@ -105,34 +105,34 @@ export const services = [
                     {
                         title: "Retningslinjer for anvendelse af AI",
                         content:
-                            "Det er umuligt at bygge 100% sikre AI-værktøjer, da de største risici stammer fra brugernes anvendelse. Det er derfor op til jer at definere retningslinjer for hvordan AI må anvendes i jeres organisation og sikre at jeres medarbejdere forstår ansvaret for at opretholde f.eks. GDPR.",
+                            "Det er umuligt at bygge 100 % sikre AI-værktøjer, da de største risici stammer fra brugernes anvendelse. Derfor hjælper jeg jer med at definere retningslinjer for, hvordan AI må anvendes i jeres organisation, og sikrer, at jeres medarbejdere forstår deres ansvar – f.eks. i forhold til GDPR.",
                     },
                     {
                         title: "Løbende afprøvning af teknologier",
                         content:
-                            "Alle medarbejdere bør have adgang til mindst et godt AI-værktøj som ChatGPT, Claude eller Copilot, men I bør samtidig have et laboratorie hvor nye værktøjer kan afprøves i trygge rammer. Teknologien udvikler sig så hurtigt at vi er nødt til konstant at rekalibrere vores valg.",
+                            "Alle medarbejdere bør have adgang til mindst ét godt AI-værktøj, som f.eks. ChatGPT, Claude eller Copilot. Samtidig sørger jeg for at etablere et laboratorie, hvor nye værktøjer kan afprøves i trygge rammer. Teknologien udvikler sig så hurtigt, at vi konstant må revurdere vores valg.",
                     },
                     {
                         title: "Prioritering af lavest-hængende AI-frugter",
                         content:
-                            "Alle ledere i organisationen bør vide hvor de lavest-hængende AI-frugter hænger, så de kan prioritere deres indsats. Denne form for planlægning og kortlægning sikrer at vi ikke løber efter gevinster der aldrig kan realiseres eller som er for dyre at høste. Det er en gentagende proces hvor alle ledere bør inddrages.",
+                            "Alle ledere i organisationen bør vide, hvor de lavest-hængende AI-frugter findes, så de kan prioritere deres indsats. Jeg hjælper med at planlægge og kortlægge, så I ikke spilder tid på gevinster, der enten ikke kan realiseres eller er for dyre at høste.",
                     },
                     {
                         title: "Plan for de næste seks måneder ",
                         content:
-                            "Det er umuligt at planlægge længere end et halvt år frem, fordi teknologien konstant forandrer sig. Men det skal ikke holde jer fra at vide hvor der skal investeres på den korte bane. Vi skal blot sørge for at lave så små investeringer at vi kan tåle at afskrive dem når vi bliver klogere.",
+                            "Det er umuligt at planlægge længere end et halvt år frem, fordi teknologien konstant forandrer sig. Jeg hjælper jer med at prioritere de investeringer, der giver mest værdi på kort sigt – og sørger for, at de er fleksible nok til at kunne justeres, når vi bliver klogere.",
                     },
                     {
                         title: "Strategi for de næste tre år",
                         content:
-                            "Mange virksomheder bruger for meget tid i det strategiske rum, hvor de forestiller sig alverdens scenarier for hvordan AI vil ændre netop deres virksomhed eller branche. Det er vigtigt at have en strategisk sigtelinje og nogle hjørneflag, så vi forstår det store potentiale – men det skal ikke tage meget af vores tid.",
+                            "Mange virksomheder fortaber sig i det strategiske rum og forestiller sig alverdens scenarier for, hvordan AI vil ændre deres branche. Jeg hjælper jer med at definere en strategisk sigtelinje, der sikrer, at I går efter det store potentiale – uden at det stjæler for meget af jeres tid.",
                     },                
                 ],
             },
             description: {
-                title: "Din lærer har prøvet det før",
+                title: "Din sparringspartner har prøvet det før",
                 content:
-                    "Jacob Bøtter har arbejdet som foredragsholder, rådgiver og iværksætter indenfor AI og digital teknologi de sidste 20 år. Han har uddannet tusindvis af ledere og medarbejdere til at omfavne nye muligheder.",
+                    "Jeg har arbejdet som foredragsholder, rådgiver og iværksætter inden for AI og digital teknologi i de sidste 20 år. I den tid har jeg hjulpet hundredevis af ledere og medarbejdere med at omfavne og udnytte nye teknologiske muligheder.",
                 buttonText: "HOLD ET MØDE OM POTENTIALET",
                 buttonLink: "/kontakt",
             },
@@ -148,33 +148,33 @@ export const services = [
         id: "prototyper",
         title: "UDVIKLING AF PROTOTYPER",
         kortforklaring:
-        "Det tager maksimalt en uges koncentreret arbejde at lave 20% af en god idé. Det kan du bruge til at teste om din idé virker og om den skaber værdi for dine brugere. Jacob benytter sig af de nyeste no-code og AI platforme til at bygge prototyper hurtigere end de fleste.",
-        info: "På en uge kan du bygge en app, automatisere en arbejdsgang, opsætte en chatbot eller bygge et nyt website.",
+        "Det tager maksimalt en uges koncentreret arbejde at udvikle 20 % af en god idé. På den tid kan vi teste, om idéen virker, og om den skaber værdi for dine brugere. Jeg bruger de nyeste no-code- og AI-platforme til at bygge prototyper hurtigere, end de fleste kan forestille sig.",
+        info: "Lad os tage en snak om din prototype.",
         image: "/images/photo-2.jpg",
-        buttonText: "KONTAKT JACOB FOR AT HØRE MERE",
+        buttonText: "KONTAKT JACOB",
         detailsHead: "Hvordan foregår et prototypeforløb?",
-        detailsDesc: "Jacob Bøtter er hverken programmør eller designer, men har en lang erfaring med at omsætte idéer til prototyper med no-code platforme på ingen ting. Han har sågar skrevet en bog om emnet.",                
+        detailsDesc: "Jeg er hverken programmør eller designer, men jeg har mange års erfaring med at omsætte idéer til prototyper ved hjælp af no-code-platforme. Faktisk har jeg skrevet en bog om emnet.",                
         buttonLink: "/kontakt",
         details: [
             {
                 title: "Afklaring og afgrænsning",
                 content:
-                    "Vi bruger et par timer sammen på at forstå konceptet, potentialet og udfordringerne. Sammen afgrænser vi et mål for prototypen. Vi forlader hinanden med en lang liste af opgaver der skal løses på begge sider før vi kan komme i gang.",
+                    "Vi starter med et par timers dialog for at forstå konceptet, potentialet og de udfordringer, vi står over for. Sammen afgrænser vi et konkret mål for prototypen. Når mødet er slut, går vi hver især hjem med en liste over opgaver, der skal løses, før vi kan komme i gang.",
             },
             {
                 title: "Udvælgelse af værktøjer",
                 content:
-                    "Det er sjældent det første no-code redskab man rækker ud efter i værktøjskassen der løser problemet bedst, så vi afprøver sammen en række forskellige muligheder.",
+                    "Det første værktøj, man griber ud efter, er sjældent det bedste til opgaven. Derfor tester vi sammen forskellige muligheder, indtil vi finder det mest optimale no-code-redskab til at løse problemet.",
             },
             {
                 title: "Udvikling af prototype",
                 content:
-                    "På tredjedagen er vi klar til at bygge. Vi har nu lagt os fast på et værktøj og bygger sammen prototypen. Vi mener virkelig sammen, for ellers når vi aldrig i mål til tiden. Og så skal du alligevel ringe til Jacob næste gang – hele idéen er jo at sidemandsoplære dig og dine kolleger til selv at kunne gøre øvelsen efter.",
+                    "På tredjedagen går vi i gang med selve udviklingen. Når vi har valgt det rette værktøj, bygger vi prototypen sammen. Og jeg mener virkelig sammen – for ellers når vi ikke i mål. Min metode er designet til at sidemandsoplære dig og dine kolleger, så I selv kan gentage processen næste gang.",
             },
         ],
         plans: {
             title:
-                "Men hvad kan man rent faktisk bygge på en uge?",
+                "Men hvad kan vi faktisk bygge på en uge?",
             list: [
                 {
                     title: "Apps",
@@ -199,7 +199,7 @@ export const services = [
             ],
         },
         description: {
-            title: "Jacob har bygget over 1000 prototyper",
+            title: "Jeg har bygget over 1000 prototyper",
             content:
                 "Nogle kunne bygges på få minutter og andre tog flere uger. Nogle blev aldrig til noget og andre blev til værdiskabende produkter der stadig bruges i dag.",
             buttonText: "HOLD ET MØDE OM POTENTIALET",
@@ -217,55 +217,55 @@ export const services = [
         id: "foredrag",
         title: "FOREDRAG",
         kortforklaring:
-        "Det kræver inspiration at komme i gang. Jacob har mange års erfaring med at holde foredrag om AI, ny teknologi og mødet med vores arbejdspladser, ledelse og kultur.",
+        "Det kræver inspiration at komme i gang. Jeg har mange års erfaring med at holde foredrag om AI, ny teknologi og hvordan det påvirker vores arbejdspladser, ledelse og kultur. ",
         info: "Jacob holder foredrag gennem High Performance Institute.",
         image: "/images/photo-2.jpg",
         buttonText: "KONTAKT HIGH PERFORMANCE INSTITUTE",
-        detailsHead: "Hvad taler Jacob om?",
-        detailsDesc: "Jacob bruger aldrig bullet-points og akademiske gennemgange, men bruger udelukkende praksisnære eksempler i sine foredrag.",                
+        detailsHead: "Hvad taler jeg om?",
+        detailsDesc: "Jeg bruger aldrig bullet-points eller akademiske gennemgange i mine foredrag. I stedet tager jeg udgangspunkt i praksisnære eksempler og virkelige erfaringer, som gør budskaberne relevante og lette at omsætte.",                
         buttonLink: "https://highperformance.dk/foredragsholdere/jacob-boetter/",
         details: [
             {
                 title: "Generativ AI",
                 content:
-                    "Jacob tager dine kolleger på en safari ud i den nye verden af generativ AI. Hvad kan vi bruge det til? Hvad kan vi ikke bruge det til? Hvad er det egentlig? Foredraget tager 1 til 2 timer og kan tilpasses til stort set alle faggrupper.",
+                    "Jeg tager dine kolleger med på en safari ud i den nye verden af generativ AI. Vi undersøger sammen: Hvad kan vi bruge det til? Hvad kan vi ikke bruge det til? Og hvad er det egentlig? Foredraget varer 1 til 2 timer og kan tilpasses stort set alle faggrupper.",
             },
             {
                 title: "No-code",
                 content:
-                    "En demokratiserende bølge af nye redskaber gør det muligt for enhver at bygge software. Helt uden at programmere. Udfordringen er blot at de færreste har prøvet redskaberne på egen krop – Jacob tager jer i hånden og viser hvordan han får værdi af Glide, Make og mange andre redskaber.",
+                    "En demokratiserende bølge af nye redskaber gør det muligt for enhver at bygge software – helt uden at programmere. Udfordringen er, at de færreste har prøvet redskaberne selv. Jeg tager jer i hånden og viser, hvordan jeg skaber værdi med værktøjer som Glide, Make og mange andre.",
             },
             {
                 title: "Fuck it, ship it",
                 content:
-                    "Den teknologiske udvikling har aldrig gået hurtigere, men det samme kan man ikke sige om implementeringshastigheden i danske virksomheder og organisationer. Jacob provokerer deltagerne til at arbejde hurtigere med at vurdere og implementere ny teknologi.",
+                    "Den teknologiske udvikling går hurtigere end nogensinde før, men det samme kan ikke siges om implementeringshastigheden i danske virksomheder og organisationer. Jeg udfordrer og provokerer jer til at arbejde hurtigere med at vurdere og implementere ny teknologi.",
             },
         ],
         plans: {
             title:
-                "Hvilken form har Jacobs foredrag?",
+                "Flere forskellige typer af foredrag",
             list: [
                 {
-                    title: "Keynote på 20 minutter",
+                    title: "Keynote på 20-30 minutter",
                     content:
-                        "De vigtigste pointer koges ned og præsenteres i et højt tempo. Typisk til den større scene med over 100 deltagere.",
+                        "De vigtigste pointer koges ned og præsenteres i et højt tempo – perfekt til den større scene med over 100 deltagere.",
                 },
                 {
                     title: "Foredrag på 1-2 timer",
                     content:
-                        "Humoristisk, energisk og praksisnært foredrag. Typisk til afdelinger eller ledergrupper med 20 til 100 deltagere.",
+                        "Et humoristisk, energisk og praksisnært foredrag. Ideelt til afdelinger eller ledergrupper med 20 til 100 deltagere.",
                 },
                 {
-                    title: "Heldagskursus",
+                    title: "Halv- eller heldagskursus",
                     content:
-                        "Dybdegående og interaktivt kursus med masser af øvelser og diskussioner. Typisk til mindre grupper med 5 til 20 deltagere.",
+                        "Et dybdegående og interaktivt kursus med masser af øvelser og diskussioner. Perfekt til mindre grupper med 5 til 20 deltagere.",
                 },        
             ],
         },
         description: {
-            title: "Jacob har afholdt over 500 foredrag",
+            title: "Jeg har afholdt over 500 foredrag",
             content:
-                "Mon ikke han også kan rykke dine kolleger eller samarbejdspartnere?",
+                "Mon ikke jeg også kan rykke dine kolleger eller samarbejdspartnere?",
             buttonText: "KONTAKT HIGH PERFORMANCE INSTITUTE",
             buttonLink: "https://highperformance.dk/foredragsholdere/jacob-boetter/",
         },

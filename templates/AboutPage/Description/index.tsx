@@ -10,7 +10,7 @@ const images = [
 
 type DescriptionProps = {};
 
-const Description = ({}: DescriptionProps) => (
+const Description = ({}: DescriptionProps) => (   
     <div className={cn("section-mb160", styles.section)}>
         <div className={"container"}>
             <div className={styles.list}>
