@@ -89,7 +89,7 @@ export const team = [
         position: "Rådgiver",
         photo: "/images/team/photo-7.jpg",
         description:
-            "Erik er en af landets mest erfarne rådgivere inden for ledelse og organisationsudvikling. Han har skrevet bogen 'Teal Dots in an Orange World' og er en efterspurgt foredragsholder.",
+            "Erik er en af landets mest erfarne rådgivere inden for ledelse og organisationsudvikling. Han har skrevet bogen 'Teal Dots in an Orange World' samt 'Anticipatory Leadership' og er en efterspurgt foredragsholder.",
         socials: [
             {
                 icon: "linkedin",
