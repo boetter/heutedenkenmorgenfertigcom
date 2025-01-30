@@ -73,9 +73,9 @@ export const team = [
         id: "5",
         title: "Søren Christian Søndergaard Poulsen",
         position: "Rådgiver",
-        photo: "/images/team/photo-6.jpg",
+        photo: "/images/team/photo-6.png",
         description:
-            "Søren har nok et af landets længste CV'er når det kommer til konkret praktisk erfaring med at implementere AI. Han har senest været hos ATP og arbejder nu i egen virksomhed 'syv.ai' med bl.a. DanskGPT og andre spændende projekter.",
+            "Søren har nok et af landets længste CV'er når det kommer til konkret praktisk erfaring med at implementere AI. Han har senest været hos ATP og arbejder med bl.a AI strategisk rådgivning, DanskGPT og andre spændende projekter.",
         socials: [
             {
                 icon: "linkedin",
