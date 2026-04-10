@@ -2,7 +2,7 @@ export const services = [
     {
         id: "laeringsforloeb",
         title: "LÆRINGSFORLØB",
-        subtitle: "Get focused with a learning program",
+        subtitle: "Et skræddersyet forløb til din organisation",
         kortforklaring:
             "Giv dine kolleger fremtidens superkræfter med Generativ AI. Med Jacob som sparringspartner får I et skræddersyet træningsprogram, der kombinerer engagerende undervisning, tæt coaching og virkelighedsnære opgaver.",
         info: "Forløbet tilpasses altid til den enkelte organisation",
@@ -72,7 +72,7 @@ export const services = [
     {
         id: "raadgivning",
         title: "RÅDGIVNING",
-        subtitle: "Strategic AI Consulting",
+        subtitle: "Strategisk AI-rådgivning",
         kortforklaring:
             "Få lagt en plan for, hvordan din organisation kan få mest mulig værdi ud af AI og andre nye teknologier. Sammen identificerer vi de største potentialer og lægger en konkret plan for at udfolde dem.",
             info: "Book et gratis afklaringsmøde.",
@@ -145,75 +145,6 @@ export const services = [
             previewImage: "/images/image-1.jpg",
         },
     {
-        id: "prototyper",
-        title: "UDVIKLING AF PROTOTYPER",
-        kortforklaring:
-        "Det tager maksimalt en uges koncentreret arbejde at udvikle 20 % af en god idé. På den tid kan vi teste, om idéen virker, og om den skaber værdi for dine brugere. Jeg bruger de nyeste no-code- og AI-platforme til at bygge prototyper hurtigere, end de fleste kan forestille sig.",
-        info: "Lad os tage en snak om din prototype.",
-        image: "/images/photo-2.jpg",
-        buttonText: "KONTAKT JACOB",
-        detailsHead: "Hvordan foregår et prototypeforløb?",
-        detailsDesc: "Jeg er hverken programmør eller designer, men jeg har mange års erfaring med at omsætte idéer til prototyper ved hjælp af no-code-platforme. Faktisk har jeg skrevet en bog om emnet.",                
-        buttonLink: "/kontakt",
-        details: [
-            {
-                title: "Afklaring og afgrænsning",
-                content:
-                    "Vi starter med et par timers dialog for at forstå konceptet, potentialet og de udfordringer, vi står over for. Sammen afgrænser vi et konkret mål for prototypen. Når mødet er slut, går vi hver især hjem med en liste over opgaver, der skal løses, før vi kan komme i gang.",
-            },
-            {
-                title: "Udvælgelse af værktøjer",
-                content:
-                    "Det første værktøj, man griber ud efter, er sjældent det bedste til opgaven. Derfor tester vi sammen forskellige muligheder, indtil vi finder det mest optimale no-code-redskab til at løse problemet.",
-            },
-            {
-                title: "Udvikling af prototype",
-                content:
-                    "På tredjedagen går vi i gang med selve udviklingen. Når vi har valgt det rette værktøj, bygger vi prototypen sammen. Og jeg mener virkelig sammen – for ellers når vi ikke i mål. Min metode er designet til at sidemandsoplære dig og dine kolleger, så I selv kan gentage processen næste gang.",
-            },
-        ],
-        plans: {
-            title:
-                "Men hvad kan vi faktisk bygge på en uge?",
-            list: [
-                {
-                    title: "Apps",
-                    content:
-                        "Byg en fungerende prototype af en smartphone eller tablet app.",
-                },
-                {
-                    title: "Automatisering",
-                    content:
-                        "Forbind systemer og opbyg automatisk logik der kører din forretning for dig.",
-                },
-                {
-                    title: "Websites",
-                    content:
-                        "Selv ganske komplekse websites kan i dag bygges på næsten ingen tid.",
-                },
-                {
-                    title: "Chatbot",
-                    content:
-                        "Byg en afgrænset chatbot der kan hjælpe dine kunder med at finde rundt i din forretning. Eller medarbejdere til at forstå specifikke dokumenter.",
-                },        
-            ],
-        },
-        description: {
-            title: "Jeg har bygget over 1000 prototyper",
-            content:
-                "Nogle kunne bygges på få minutter og andre tog flere uger. Nogle blev aldrig til noget og andre blev til værdiskabende produkter der stadig bruges i dag.",
-            buttonText: "HOLD ET MØDE OM POTENTIALET",
-            buttonLink: "/kontakt",
-        },
-        gallery: [
-            { image: "/images/photo-1.jpg" },
-            { image: "/images/photo-2.jpg" },
-            { image: "/images/photo-3.jpg" },
-        ],
-        video: "/videos/video-1.mp4",
-        previewImage: "/images/image-1.jpg",
-    },
-{
         id: "foredrag",
         title: "FOREDRAG",
         kortforklaring:

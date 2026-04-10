@@ -214,9 +214,9 @@ FASE 1 — Plan på plads  ✓ DONE
   [x] Push til claude/new-company-website-Ax4Ng
 
 FASE 2 — Tekniske rettelser (ingen nyt indhold nødvendig)
-  [ ] Fix mocks/links.tsx — danske kategorier, korrekte tæller-tal
-  [ ] Fix engelske subtitle-felter i mocks/services.tsx
-  [ ] Fjern "Udvikling af prototyper" fra services
+  [x] Fix mocks/links.tsx — danske kategorier, korrekte tæller-tal
+  [x] Fix engelske subtitle-felter i mocks/services.tsx
+  [x] Fjern "Udvikling af prototyper" fra services
 
 FASE 3 — Strukturelle ændringer
   [ ] Omskriv team-sektion til "Jacob alene"-sektion (B1)

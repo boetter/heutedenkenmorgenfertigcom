@@ -1,75 +1,45 @@
 export const linksProject = [
     {
-        title: "All Projects",
+        title: "Alle projekter",
         value: "all-projects",
-        counter: 94,
+        counter: 5,
     },
     {
-        title: "Marketing and Communication Plan",
-        value: "marketing-and-communication-plan",
-        counter: 47,
+        title: "Læringsforløb",
+        value: "Læringsprogram",
+        counter: 2,
     },
     {
-        title: "Branding",
-        value: "branding",
-        counter: 38,
+        title: "Rådgivning",
+        value: "Rådgivning",
+        counter: 2,
     },
     {
-        title: "Digital Campaigns",
-        value: "digital-campaigns",
-        counter: 31,
-    },
-    {
-        title: "Website",
-        value: "website",
-        counter: 30,
-    },
-    {
-        title: "Marketing as a Service",
-        value: "marketing-as-a-service",
-        counter: 27,
-    },
-    {
-        title: "Public Realations",
-        value: "public-realations",
-        counter: 16,
+        title: "Foredrag",
+        value: "Foredrag",
+        counter: 1,
     },
 ];
 
 export const linksBlogs = [
     {
-        title: "All Blogs",
+        title: "Alle",
         value: "all-blogs",
-        counter: 152,
+        counter: 5,
     },
     {
-        title: "Press Releases",
-        value: "press-releases",
-        counter: 35,
+        title: "AI eksperiment",
+        value: "AI eksperiment",
+        counter: 2,
     },
     {
-        title: "Branding",
-        value: "branding",
-        counter: 57,
+        title: "No-code eksperiment",
+        value: "No-code eksperiment",
+        counter: 2,
     },
     {
-        title: "Digital Campaigns",
-        value: "digital-campaigns",
-        counter: 48,
-    },
-    {
-        title: "Marketing Plan",
-        value: "marketing-plan",
-        counter: 36,
-    },
-    {
-        title: "SEO",
-        value: "seo",
-        counter: 21,
-    },
-    {
-        title: "Other",
-        value: "0ther",
-        counter: 19,
+        title: "Julekalender",
+        value: "Julekalender 2024",
+        counter: 1,
     },
 ];
