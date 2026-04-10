@@ -7,47 +7,34 @@ export const projects = [
         categories: ["Læringsprogram"],
         year: "2023",
 
-        overview1: "Her skal der stå noget om projektet i sin helhed.",
-        overview2: "Her skal der stå noget om projektet i sin helhed.",
-        overview3: "Her skal der stå noget om projektet i sin helhed.",
-        beskriv1: "Uddybende tekst om case1",
-        beskriv2: "Uddybende tekst om case2",
-        beskriv3: "Uddybende tekst om case3",
-        beskriv4: "Uddybende tekst om case4",
+        overview1: "HK Privat ønskede at løfte AI-kompetencerne hos alle medarbejdere i den faglige afdeling. Målet var ikke blot at introducere værktøjerne, men at give hver enkelt medarbejder konkrete færdigheder, de kunne bruge i deres daglige arbejde med rådgivning og sagsbehandling.",
+        overview2: "Forløbet strakte sig over seks måneder og kombinerede fysiske workshops i København med løbende online-sessioner. Hver session var bygget op omkring hands-on øvelser med copy-paste-klare prompts, som deltagerne kunne bruge med det samme — ikke abstrakte cases, men opgaver tæt på deres egen hverdag.",
+        overview3: "Undervejs fik deltagerne adgang til et skræddersyet promptbibliotek med over 100 prompts, organiseret efter faglige opgavetyper. Forløbet sluttede med, at deltagerne selv kunne formulere effektive prompts og anvende AI-værktøjer selvstændigt i deres arbejde.",
+        beskriv1: "Tæt på deltagernes hverdag — Alle øvelser og eksempler var tilpasset HK Privats faglige virkelighed: kompetenceplaner, medlemsrådgivning og faglig sagsbehandling. Ingen generiske eksempler.",
+        beskriv2: "Læring gennem praksis — Formatet fulgte en fast struktur: demo af en konkret opgave, hands-on øvelse hvor deltagerne selv arbejdede med AI, deling af resultater i gruppen, og iteration på hinandens prompts.",
+        beskriv3: "Værktøjer deltagerne kunne tage med hjem — Et interaktivt promptbibliotek blev udviklet specifikt til HK Privat og gjort tilgængeligt online, så deltagerne kunne bruge det som dagligt opslagsværk efter forløbets afslutning.",
+        beskriv4: "Fra usikkerhed til selvstændighed — Ved forløbets start havde de fleste deltagere begrænset erfaring med AI. Ved afslutningen kunne de selvstændigt bruge ChatGPT og Claude til at løse konkrete opgaver og formulere præcise prompts.",
         video: "/videos/video-2.mp4",
         results: {
             achievements: [
-                "Resultat 1",
-                "Created a user journey that makes the user's experience with something as crucial as daycares simpler.",
-                "Implemented a CRM to improve client acquisition and client retention.",
+                "Alle medarbejdere i den faglige afdeling gennemførte et fuldt AI-læringsforløb over seks måneder.",
+                "Over 100 skræddersyede prompts organiseret i et promptbibliotek tilpasset HK Privats faglige virkelighed.",
+                "Deltagerne gik fra begrænset erfaring til selvstændig brug af ChatGPT og Claude i det daglige arbejde.",
             ],
-            stats: [
-                {
-                    value: "+102%",
-                    description: "Number of pages view grew",
-                },
-                {
-                    value: "+153%",
-                    description: "Time spent on pages per session",
-                },
-                {
-                    value: "+247%",
-                    description: "Average session duration increased by",
-                },
-            ],
+            stats: [],
         },
         reviewAuthor: {
-            avatar: "/images/avatar-1.jpg",
-            man: "Nicolaj Nørgaard Peulicke",
-            position: "Senior Vice President, CIO – Energinet",
+            avatar: "/images/marck.jpg",
+            man: "Christoffer Marckmann",
+            position: "Faglig chef, HK Privat",
             content:
-                "Jacob har haft en markant positiv indflydelse på vores arbejde med AI. Han har været med til at støbe kuglerne til strategien, men også selv stået med fingrene nede i projekterne når de store mål skulle realiseres.",
+                "Jacob har med stor entusiasme og faglig indsigt hjulpet mig og mine kolleger til at få værdi ud af ChatGPT og andre AI-værktøjer i hverdagen. Jeg kan varmt anbefale andre at gennemføre et læringsforløb i deres organisation med Jacob ved roret.",
         },
-            gallery: [
-                "/images/photo-1.jpg",
-                "/images/photo-9.jpg",
-                "/images/photo-10.jpg",
-                "/images/photo-11.jpg",
+        gallery: [
+            "/images/photo-1.jpg",
+            "/images/photo-9.jpg",
+            "/images/photo-10.jpg",
+            "/images/photo-11.jpg",
         ],
     },
     
