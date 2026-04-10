@@ -244,3 +244,22 @@ FASE 5 — Indsæt nyt indhold
 - **Styling:** SASS modules (`.module.sass`)
 - **Udviklingsserver:** `npm run dev`
 - **Branch:** `claude/new-company-website-Ax4Ng`
+
+---
+
+## Netlify arkitektur — kendte problemer og anbefalinger
+
+**Nuværende setup:**
+- `@netlify/plugin-nextjs` v4.41.6 installeret som Netlify app-plugin (ikke i package.json)
+- Seneste version er **5.15.9** — v4 bruger den ustabile IPX-funktion til billedoptimering
+- Billeder serveres nu med `images: { unoptimized: true }` i `next.config.js` (omgår IPX)
+- Lighthouse Performance-score er **99** med denne konfiguration ✓
+
+**Anbefalet opgradering (valgfri — sitet virker fint som det er):**
+1. Gå til **Site settings → Plugins** i Netlify-appen
+2. Afinstallér `@netlify/plugin-nextjs` v4
+3. Geninstallér fra plugin-biblioteket (installerer automatisk v5)
+4. V5 bruger Netlify Edge Functions til billeder og er markant mere stabil
+5. Når v5 er installeret kan `images: { unoptimized: true }` fjernes fra `next.config.js`
+
+**Alternativ:** Behold `unoptimized: true` permanent — det virker og giver 99 i Lighthouse.
