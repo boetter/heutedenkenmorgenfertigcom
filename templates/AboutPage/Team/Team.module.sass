@@ -6,50 +6,59 @@
         padding-top: rem(96)
 
 .label
-    margin-bottom: rem(40)
+    margin-bottom: rem(80)
     +t
-        margin-bottom: rem(32)
-
-.title
-    max-width: rem(950)
-    margin-bottom: rem(120)
-    +w
-        margin-bottom: rem(96)
-    +t
-        margin-bottom: rem(80)
-
-.list
-    display: flex
-    flex-wrap: wrap
-    margin: 0 rem(-50)
-    +w
-        margin: 0 rem(-30)
-    +d
-        margin: 0 rem(-20)
-    +t
-        margin: 0 rem(-20) rem(-48)
+        margin-bottom: rem(48)
     +m
-        display: block
-        margin: 0
+        margin-bottom: rem(40)
 
-.item
-    flex: 0 0 calc(33.333% - rem(100))
-    width: calc(33.333% - rem(100))
-    margin: 0 rem(50)
-    +w
-        flex: 0 0 calc(33.333% - rem(60))
-        width: calc(33.333% - rem(60))
-        margin: 0 rem(30)
+.inner
+    display: flex
+    align-items: flex-start
+    gap: rem(80)
     +d
-        flex: 0 0 calc(33.333% - rem(40))
-        width: calc(33.333% - rem(40))
-        margin: 0 rem(20)
+        gap: rem(48)
     +t
-        flex: 0 0 calc(50% - rem(40))
-        width: calc(50% - rem(40))
-        margin: 0 rem(20) rem(48)
+        gap: rem(40)
+    +m
+        flex-direction: column
+        gap: rem(32)
+
+.preview
+    position: relative
+    flex: 0 0 rem(380)
+    aspect-ratio: .9
+    overflow: hidden
+    +d
+        flex: 0 0 rem(300)
+    +t
+        flex: 0 0 rem(240)
     +m
         width: 100%
-        margin: 0
-        &:not(:last-child)
-            margin-bottom: rem(48)
+        flex: none
+
+.content
+    flex: 1
+    padding-top: rem(16)
+
+.name
+    margin-bottom: rem(16)
+
+.position
+    +subtitleS
+    text-transform: uppercase
+    color: $n4
+    margin-bottom: rem(48)
+    +t
+        margin-bottom: rem(32)
+    +m
+        margin-bottom: rem(24)
+
+.description
+    +bodyL
+    margin-bottom: rem(48)
+    +t
+        +bodyM
+        margin-bottom: rem(32)
+    +m
+        margin-bottom: rem(24)

@@ -219,8 +219,9 @@ FASE 2 — Tekniske rettelser (ingen nyt indhold nødvendig)
   [x] Fjern "Udvikling af prototyper" fra services
 
 FASE 3 — Strukturelle ændringer
-  [ ] Omskriv team-sektion til "Jacob alene"-sektion (B1)
-  [ ] Opdater services-tekster til 2025-2026 positionering (B2)
+  [x] Omskriv team-sektion til "Jacob alene"-sektion (B1)
+  [x] Opdater stat-boks: "1000+ Prototyper bygget" → "20.000+ Mennesker undervist"
+  [ ] Opdater services-tekster til 2025-2026 positionering (B2 — kræver Jacob's godkendelse)
 
 FASE 4 — Kræver Jacob's input (kan ske parallelt med Fase 2-3)
   [ ] Indsaml yderligere testimonials — A1
