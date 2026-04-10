@@ -16,8 +16,8 @@ const list = [
         value: "100+",
     },
     {
-        title: "Prototyper bygget",
-        value: "1000+",
+        title: "Mennesker undervist",
+        value: "20.000+",
     },
 ];
 
