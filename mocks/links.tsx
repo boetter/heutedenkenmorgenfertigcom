@@ -2,12 +2,12 @@ export const linksProject = [
     {
         title: "Alle projekter",
         value: "all-projects",
-        counter: 5,
+        counter: 6,
     },
     {
         title: "Læringsforløb",
         value: "Læringsprogram",
-        counter: 2,
+        counter: 3,
     },
     {
         title: "Rådgivning",

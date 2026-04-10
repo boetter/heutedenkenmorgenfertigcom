@@ -242,4 +242,35 @@ export const projects = [
                 "/images/photo-11.jpg",
         ],
     },
+    {
+        id: "5",
+        client: "HK Handel",
+        title: "AI-kompetenceforløb for medarbejdere i HK Handel med fokus på at anvende AI konkret i det daglige arbejde.",
+        image: "/images/projects/project-pic-3.jpg",
+        categories: ["Læringsprogram"],
+        year: "2025-2026",
+
+        overview1: "HK Handel ønskede et længerevarende forløb, der gav medarbejderne tid til ikke bare at lære AI-værktøjerne at kende, men til at gøre dem til en naturlig del af hverdagen. Deltagerne spændte fra sagsbehandlere og faglige eksperter til kommunikationsmedarbejdere, organizere og administrative sekretærer — alle med forskellige arbejdsopgaver og behov.",
+        overview2: "Forløbet løb over flere måneder og bestod af virtuelle sessioner kombineret med fysiske hands-on dage i København. Hver deltager udarbejdede en personlig kompetenceplan for deres arbejde med AI, og alle øvelser tog udgangspunkt i deltagernes egne opgaver — fra mailskrivning og referater til dokumentanalyse, præsentationer og strategisk sparring.",
+        overview3: "En central del af forløbet var at sammenligne de store AI-værktøjer — ChatGPT, Claude og Gemini — så deltagerne selv kunne vurdere, hvilket værktøj der passede bedst til hvilke opgaver. Deltagerne lærte også at diktere deres prompts med stemmen, og fik adgang til et skræddersyet online promptbibliotek med over 60 prompts bygget direkte på deres arbejdsopgaver og kompetenceplaner.",
+        beskriv1: "Personlige kompetenceplaner — Hver deltager lavede sin egen plan for, hvordan AI kunne bruges i netop deres rolle. Planerne blev brugt som grundlag for øvelser og sikrede, at forløbet var relevant for alle uanset jobfunktion.",
+        beskriv2: "Hands-on frem for slides — De fysiske dage var bygget op som workshops, hvor deltagerne arbejdede på egne laptops med konkrete opgaver — og delte resultater via Teams-skærmdeling, så alle kunne lære af hinandens tilgang.",
+        beskriv3: "Skræddersyet promptbibliotek — Et interaktivt online promptbibliotek blev udviklet specifikt til HK Handels medarbejdere med prompts til tekstskrivning, dokumentanalyse, mødeforberedelse, kritisk sparring og meget mere — alt personaliseret med navne og opgavetyper fra holdet.",
+        beskriv4: "Fra nysgerrighed til daglig brug — Forløbet afsluttedes med diplomer til alle deltagere, der nu selvstændigt kan anvende AI til promptdesign, dokumentanalyse og kompetenceudvikling i deres arbejde.",
+        video: "/videos/video-2.mp4",
+        results: {
+            achievements: [
+                "Alle deltagere gennemførte det fulde forløb og modtog diplom.",
+                "Over 60 skræddersyede prompts udviklet i online promptbibliotek.",
+                "Personlige kompetenceplaner udarbejdet for hver deltager.",
+                "Deltagerne anvender selvstændigt ChatGPT, Claude og Gemini i dagligt arbejde.",
+            ],
+            stats: [],
+        },
+        gallery: [
+            "/images/photo-1.jpg",
+            "/images/photo-9.jpg",
+            "/images/photo-10.jpg",
+        ],
+    },
 ];
