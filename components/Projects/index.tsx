@@ -62,7 +62,7 @@ const Projects = ({
                         { "button-light": dark },
                         styles.button
                     )}
-                    href="/projects"
+                    href="/projekter"
                 >
                     {viewAll}
                 </Link>

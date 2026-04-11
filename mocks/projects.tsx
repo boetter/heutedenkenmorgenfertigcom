@@ -43,7 +43,7 @@ export const projects = [
         client: "Energinet",
         title: "Løbende rådgivning om Generativ AI, opstart af rammeprogram og udvikling af prototyper. I samarbejde med PA Consulting.",
         image: "/images/projects/energinet.jpg",
-        categories: ["Rådgivning", "Udvikling af prototyper"],
+        categories: ["Rådgivning"],
         year: "2023-2025",
 
         overview1: "Her skal der stå noget om projektet i sin helhed.",
@@ -94,7 +94,7 @@ export const projects = [
         client: "ConTech Lab",
         title: "Træning af SMV’er i byggebranchen i anvendelse af no-code og AI teknologier.",
         image: "/images/projects/contech.png",
-        categories: ["Læringsprogram", "Udvikling af prototyper"],
+        categories: ["Læringsprogram"],
         year: "2023",
 
         overview1: "Her skal der stå noget om projektet i sin helhed.",
