@@ -8,13 +8,15 @@ type ListingProps = {
     title: string;
     links: LinksType[];
     scrollToRef?: any;
+    onFilter?: (value: string) => void;
 };
 
-const Listing = ({ title, links, scrollToRef }: ListingProps) => {
+const Listing = ({ title, links, scrollToRef, onFilter }: ListingProps) => {
     const [active, setActive] = useState<string>(links[0].value);
 
     const handleClick = (value: string) => {
         setActive(value);
+        onFilter && onFilter(value);
         scrollToRef &&
             scrollToRef.current.scrollIntoView({
                 behavior: "smooth",
@@ -30,7 +32,20 @@ const Listing = ({ title, links, scrollToRef }: ListingProps) => {
         >
             <div className={cn("container", styles.container)}>
                 <div className={cn("h4", styles.title)}>{title}</div>
-                
+                <div className={styles.links}>
+                    {links.map((link) => (
+                        <button
+                            className={cn(styles.link, {
+                                [styles.active]: active === link.value,
+                            })}
+                            key={link.value}
+                            onClick={() => handleClick(link.value)}
+                        >
+                            <span className={styles.text}>{link.title}</span>
+                            <span className={styles.counter}>{link.counter}</span>
+                        </button>
+                    ))}
+                </div>
             </div>
         </div>
     );

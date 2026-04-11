@@ -25,7 +25,7 @@ const ServicePage = ({ id }: any) => {
             <Main id={id} />
             <Overview id={id} />
             <Gallery id={id} />
-            <Review className="section-mb160" review={reviewAuthor} />
+            {reviewAuthor && <Review className="section-mb160" review={reviewAuthor} />}
             <Preview
                 className="section-mb120"
                 video={project.video} // Dynamisk video

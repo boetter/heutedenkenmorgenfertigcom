@@ -2,11 +2,20 @@
 
 > Oprettet april 2026. Brug dette dokument som tjekliste og reference i det løbende arbejde med sitet.
 
-## Status i dag — tre overordnede problemer
+## Status — hvad er gjort, hvad mangler
 
-1. **Alle 5 projektsider har generiske placeholder-tekster** (dansk og engelsk skabelontekst der intet har med forretningen at gøre)
-2. **Forretningsprofilen er forældet** — virksomheden er i dag Jacob alene, og fokus er læringsforløb
-3. **Mange sektioner bruger generiske billeder og video-placeholders** fra den originale skabelon
+**Løst:**
+- Forretningsprofil opdateret (Jacob alene, læringsforløb som primær ydelse)
+- Team-sektion omskrevet til "Du får mig — og ingen andre"
+- Ydelse "Udvikling af prototyper" fjernet
+- Filterkategorier opdateret til dansk med korrekte tal
+- HK Privat og HK Handel har rigtige projektbeskrivelser
+- Filterfunktionalitet på projekter og eksperimenter siden fungerer nu
+
+**Mangler stadig:**
+1. **4 projekter har stadig placeholder-tekster** — Energinet, ConTech Lab, Novo Nordisk, Grundfos
+2. **Visuelle aktiver** — mange sektioner bruger generiske billeder og video-placeholders fra skabelonen
+3. **Mere indhold fra Jacob** — yderligere testimonials, bogstatus
 
 ---
 
@@ -29,21 +38,20 @@ Minimum 5-6 testimonials er ideelt for troværdighed på sitet.
 ### A2 — Projektbeskrivelser (KRITISK)
 **Fil:** `mocks/projects.tsx`
 
-Alle 5 projekter har i dag identiske placeholder-tekster. Hvert projekt mangler:
+Hvert projekt mangler:
 - 3 indledende afsnit om projektet i sin helhed
 - 4 uddybende detaljer om tilgang og udførelse
 - Konkrete resultater (eller fjernelse af resultat-sektionen hvis der ikke er reelle tal)
 - En rigtig anmeldelse tilknyttet det specifikke projekt
 
-| Projekt | Hvad mangler | Anmeldelse |
-|---------|-------------|------------|
-| HK Privat | Beskrivelse af læringsforløbet, hvad deltagerne lærte, hvordan det foregik | Christoffer Marckmann (HK Privat) — findes i reviews.tsx |
-| Energinet | Beskrivelse af rådgivningsforløbet 2023-2025, konkrete milepæle | Nicolaj Peulicke (Energinet) — findes i reviews.tsx |
-| ConTech Lab | Beskrivelse af SMV-træning i byggebranchen | Ole Berard (Molio) — findes i reviews.tsx |
-| Novo Nordisk | Beskrivelse af ekstern rådgivning på digitale produktionsprojekter | Mangler — ny testimonial nødvendig |
-| Grundfos | Beskrivelse af AI-rådgivning og startup scouting | Mangler — ny testimonial nødvendig |
-
-> **OBS:** Alle 5 projektsider viser i dag den SAMME anmeldelse fra Energinet — også på HK Privat, ConTech, Novo og Grundfos. Det skal rettes.
+| Projekt | Status | Anmeldelse |
+|---------|--------|------------|
+| HK Privat | ✓ Tekst på plads | ✓ Christoffer Marckmann |
+| HK Handel | ✓ Tekst på plads | ☐ Mangler — indhent fra Mette Høgh eller deltager |
+| Energinet | ☐ Placeholder-tekst | ✓ Nicolaj Peulicke — klar til brug |
+| ConTech Lab | ☐ Placeholder-tekst | ✓ Ole Berard — klar til brug |
+| Novo Nordisk | ☐ Placeholder-tekst | ☐ Mangler — ny testimonial nødvendig |
+| Grundfos | ☐ Placeholder-tekst | ☐ Mangler — ny testimonial nødvendig |
 
 ---
 
@@ -213,25 +221,32 @@ FASE 1 — Plan på plads  ✓ DONE
   [x] Opret docs/WEBSITE-PLAN.md i repo
   [x] Push til claude/new-company-website-Ax4Ng
 
-FASE 2 — Tekniske rettelser (ingen nyt indhold nødvendig)
+FASE 2 — Tekniske rettelser  ✓ DONE
   [x] Fix mocks/links.tsx — danske kategorier, korrekte tæller-tal
   [x] Fix engelske subtitle-felter i mocks/services.tsx
   [x] Fjern "Udvikling af prototyper" fra services
+  [x] Ret kategorier i mocks/projects.tsx (fjern "Udvikling af prototyper")
+  [x] Fix URL i Projects-komponent: /projects → /projekter
+  [x] Implementér filterfunktionalitet på projekter og eksperimenter-siden
 
-FASE 3 — Strukturelle ændringer
+FASE 3 — Strukturelle ændringer  ✓ DONE
   [x] Omskriv team-sektion til "Jacob alene"-sektion (B1)
   [x] Opdater stat-boks: "1000+ Prototyper bygget" → "20.000+ Mennesker undervist"
-  [ ] Opdater services-tekster til 2025-2026 positionering (B2 — kræver Jacob's godkendelse)
+  [x] Fix billedvisning: next.config.js + Team SASS layout
 
-FASE 4 — Kræver Jacob's input (kan ske parallelt med Fase 2-3)
-  [ ] Indsaml yderligere testimonials — A1
-  [ ] Bekræft bogstatus og opdater tekst — A3
-  [ ] Planlæg og afhold foto/video-session — Sektion C
-  [ ] Skriv eller godkend projektbeskrivelser — A2
+FASE 4 — Projektindhold (delvist)
+  [x] HK Privat — tekst og anmeldelse på plads
+  [x] HK Handel — tekst på plads, testimonial mangler
+  [ ] Energinet — afventer tekst fra Jacob
+  [ ] ConTech Lab — afventer tekst fra Jacob
+  [ ] Novo Nordisk — afventer tekst fra Jacob
+  [ ] Grundfos — afventer tekst fra Jacob
 
-FASE 5 — Indsæt nyt indhold
-  [ ] Opdater mocks/projects.tsx med rigtige tekster
-  [ ] Tilføj nye testimonials i mocks/reviews.tsx
+FASE 5 — Kræver Jacob's input
+  [ ] Indsaml yderligere testimonials (A1) → mocks/reviews.tsx
+  [ ] HK Handel testimonial — Mette Høgh eller deltager
+  [ ] Bekræft bogstatus og opdater tekst (A3)
+  [ ] Planlæg og afhold foto/video-session (Sektion C)
   [ ] Indsæt nye billeder og videoer
 ```
 
